@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Albert Yumol"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Bash Conquers the Universe"
+  bio              : "Data Sayangtist"
   location         : "Quezon City Philippines"
   email            :
   links:
@@ -117,10 +117,10 @@ author:
        #url: "mailto:albert.yumol@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      #url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-       #url: "https://twitter.com/albert1177"
+      url: "https://twitter.com/albert1177"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
        #url: "https://www.facebook.com/bash.yumol.3"
