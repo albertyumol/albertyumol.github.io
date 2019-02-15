@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/image/london.JPG"
+  image: "/images/london.JPG"
 ---
 Mabuhay daigdig! 
 
