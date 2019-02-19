@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Albert Yumol"
-  avatar           : /images/me.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Sayangtist"
   location         : "Quezon City Philippines"
   email            :
