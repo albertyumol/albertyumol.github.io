@@ -1,8 +1,8 @@
 ---
 title: "About"
 permalink: /about/
-header:
-  image: "/images/london.JPG"
+#header:
+  #image: "/images/london.JPG"
 
 ---
 
