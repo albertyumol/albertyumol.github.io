@@ -4,11 +4,11 @@ main:
     url: /about/ #https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Image Processing"
     url: /image-processing/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Machine Learning"
+    url: /machine-learning/
+  - title: "IoT"
+    url: /IoT/
+  - title: "Advocacy"
+    url: /advocay/
   # - title: "Sitemap"
   #   url: /sitemap/
