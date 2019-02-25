@@ -4,7 +4,7 @@ date: 2019-02-25
 tags: [image processing, discrete calculus, edge detection]
 header:
   image: "/images/julia2.gif"
-excerpt: "Two dimensional Estimations using Scilab and"
+excerpt: "Two dimensional Estimations using Scilab and ImageJ"
 mathjax: true
 
 ---
