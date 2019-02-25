@@ -9,6 +9,9 @@ mathjax: true
 
 ---
 
+<div id="fb-root"></div>
+<script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+
 More and more of our daily activites are becoming automated and digitized. Current technology relies a lot on computer data and its processing to make efficient decisions and solutions. One of such technologies involves optical sensing devices and and smart camera systems. These technologies revolutionized the way we look at things from the very small to those that exceeds our human proportions by orders of magnitude.
 
 ​
@@ -25,4 +28,7 @@ There are a lot ways in which an area can be estimated given an image. The most 
 
 ​
 
-For some continuous function F1 and F2 (with continuous partial derivatives) that contains a region R, Green's Theorem relates
+For some continuous function F1 and F2 (with continuous partial derivatives) that contains a region R, Green's Theorem relates.
+
+
+<div class="fb-comments" data-href="https://albertyumol.github.io/" data-numposts="5"></div>
