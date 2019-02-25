@@ -1,10 +1,10 @@
 ---
 layout: archive
-permalink: /machine-learning/
-title: "Machine Learning Posts by Tags"
+permalink: /image-processing/
+title: "Image Processing Posts by Tags"
 author_profile: true
 header:
-  image: "/images/london.JPG"
+  image: "/images/julia2.gif"
   
 ---
 
