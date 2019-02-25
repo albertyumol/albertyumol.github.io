@@ -14,21 +14,30 @@ mathjax: true
 
 More and more of our daily activites are becoming automated and digitized. Current technology relies a lot on computer data and its processing to make efficient decisions and solutions. One of such technologies involves optical sensing devices and and smart camera systems. These technologies revolutionized the way we look at things from the very small to those that exceeds our human proportions by orders of magnitude.
 
-​
+In field of medical technology, image processing is a milestone for capturing live and real time images of minute cells. In the field of space exploration we have estimated the areas of the craters of the moon, approximated the heat of the sun, and even counted the very stars that made our heavens. 
 
-In field of medical technology, image processing is a milestone for capturing live and real time images of minute cells. In the field of space exploration we have estimated the areas of the craters of the moon, approximated the heat of the sun, and even counted the very stars that made our heaven. 
+This post is a taste of those applications in a VERY simplified manner. Same concepts, same math, minus the proportions (well not really). 
+This is all about area estimation using pixel coordiantes.
 
-​
+There are a lot ways in which an area can be estimated given an image. The most basic approch would be directly counting the pixels that lie within a boundary and by sorting out the pixels by the magnitude of its intensity. But that's only one way of doing it. A more 'mathematical' and elegant approach is by using Green's Theorem. This theorem basically relates a double integral to a line integral [1]. 
 
-This activity is a taste of those applications in a simplified manner. Same concepts, same math, minus the proportions (well not really). This activity is all about area estimation using pixel coordiantes.
+For some continuous function $$F1$$ and $$F2$$ (with continuous partial derivatives) that contains a region R, Green's Theorem relates that:
 
- 
 
-There are a lot ways in which an area can be estimated given an image. The most basic approch would be directly counting the pixels that lie within a boundary by sorting out the pixels by the magnitude of its intensity. But that's only one way of doing it. A more mathematical approach is by using Green's Theorem. This theorem basically relates a double integral to a line integral [1]. 
 
-​
 
-For some continuous function F1 and F2 (with continuous partial derivatives) that contains a region R, Green's Theorem relates.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div class="fb-comments" data-href="https://albertyumol.github.io/" data-numposts="5"></div>
