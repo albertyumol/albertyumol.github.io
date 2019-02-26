@@ -71,7 +71,7 @@ Detects edges in im, using Canny method. thresh is a two-element vector, in whic
 Implementing the Green's theorem and comparing the five edge detection algorithms, (the code can be found HERE [5])
 
 
-'''Scilab
+{% highlight scilab %}
 Circle = imread('C:\Users\csrc-lab03\Desktop\yakal5.bmp');
 Circle = rgb2gray(Circle)
 //Circle = imread('Circle.bmp'); //Opens the image to be processed
@@ -139,8 +139,7 @@ Error = 100*abs(Area_Comp - Area_Theo)/Area_Theo;
 
 disp(Area_Comp); disp(Area_Theo); disp(Error);
 
-
-'''
+{% endhighlight %}
 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Image2_LA.png" alt="Actual Results" class="center">
