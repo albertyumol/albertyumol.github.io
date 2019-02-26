@@ -27,7 +27,10 @@ There are a lot ways in which an area can be estimated given an image. The most 
 
 For some continuous function $$F_{1}$$ and $$F_{2}$$ (with continuous partial derivatives) that contains a region R, Green's Theorem relates that:
 
+
+{:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/Equation1_LA.png" alt="Equation 1" class="center">
+{: refdef}
 
 Suppose that F1=0, F2=x and F1=−y, F2=0, then at the region R and at the contour boundary C, using first equation,
 
@@ -72,14 +75,12 @@ Implementing the Green's theorem and comparing the five edge detection algorithm
 
 
 {% highlight scilab %}
+//Opens the image to be processed
 Circle = imread('C:\Users\csrc-lab03\Desktop\yakal5.bmp');
 Circle = rgb2gray(Circle)
-//Circle = imread('Circle.bmp'); //Opens the image to be processed
 
 edge_sobel = edge(Circle,'canny'); //Use edge() function sobel
-
 imshow(edge_sobel);
-
 imwrite(edge_sobel,'Circle_sobel.bmp');
 
 [i_x,i_y] = find(edge_sobel); //Edge pixel coordinates
@@ -87,58 +88,41 @@ imwrite(edge_sobel,'Circle_sobel.bmp');
 //Locate centroid coordinates (in pixels) using average.
 
 //sum([]) adds the elements in []. size([],2) gets the number of columns.
-
 x_center = sum(i_x)/size(i_x,2);
-
 y_center = sum(i_y)/size(i_y,2);
 
 //Calculate position magnitude r and angle theta
-
 x_loc = i_x - x_center;
-
 y_loc = i_y - y_center;
 
 r = sqrt((x_loc).^2+(y_loc).^2);
-
 theta = atan((y_loc),(x_loc));
 
 //Sort values according to increasing angle. gsort() function is used.
-
 //theta_sorted is the sorted angle array, and is its corresponding index in the unsorted array
-
 //'g' sorts all elements in 'i' increasing order
 
 [theta_sorted, index] = gsort(theta','g','i');
-
 xy_array = [x_loc;y_loc]' 
 //Contains the values x and y pixels (transposed).
 
 //Sort x and y coordinates according to increasing angle.
-
 xy_sorted = xy_array(index,:);
-
 x_sorted = xy_sorted(:,1);
-
 y_sorted = xy_sorted(:,2);
 
 //Apply Green's finction in x_sorted and y_sorted. Obtain summations xdy and ydx for area computation.
-
 xdy = sum(x_sorted(1:size(x_sorted,1)-1).*y_sorted(2:size(y_sorted,1)));
-
 ydx = sum(y_sorted(1:size(y_sorted,1)-1).*x_sorted(2:size(x_sorted,1)));
 
 Area_Comp = 0.5*(xdy - ydx);
 
 //Compute Theoretical Area
-
 Area_Theo = length(find(Circle==255));
 
 //Compute % error
-
 Error = 100*abs(Area_Comp - Area_Theo)/Area_Theo;
-
 disp(Area_Comp); disp(Area_Theo); disp(Error);
-
 {% endhighlight %}
 
 
