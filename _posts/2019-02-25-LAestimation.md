@@ -34,19 +34,27 @@ For some continuous function $$F_{1}$$ and $$F_{2}$$ (with continuous partial de
 
 Suppose that $$F1=0$$, $$F2=x$$ and $$F1=−y$$, $$F2=0$$, then at the region $$R$$ and at the contour boundary $$C$$, using first equation,
 
+{:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/Equation2_LA.png" alt="Equation 2" class="center">
+{: refdef}
 
 The double integral gives us the area of the region R to the right and to the left. Adding the two equations above, 
 
+{:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/Equation3_LA.png" alt="Equation 3" class="center">
+{: refdef}
 
 In discrete form,
 
+{:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/Equation4_LA.png" alt="Equation 4" class="center">
+{: refdef}
 
 For the first part that I used Green's Theorem to find the area of regular shapes. Using the skills that I learned from Activity 3, I generated a circle with radius of 0.7 units, a rectangle with length 1.4 units and width 1 unit, a tringle with height 0.5 unit of and base of 1 unit. Shown below are the synthetic images.
 
+{:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/Image1_LA.png" alt="Shapes and Edges" class="center">
+{: refdef}
 
 So that Green's Theorem can be applied, the edge of the shapes above should be determined first. In Scilab, the module SIVP (Scilab Image and Video Processing toolbox) has five readily available edge detection algorithm [2]:
 
@@ -125,12 +133,15 @@ Error = 100*abs(Area_Comp - Area_Theo)/Area_Theo;
 disp(Area_Comp); disp(Area_Theo); disp(Error);
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/Image2_LA.png" alt="Actual Results" class="center">
+{: refdef}
 
 The table below shows the summary of the results of the calculated area of the shapes using Green's theorem with different edge detection algorithms. 
 
+{:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/Table1_LA.png" alt="Edge Detection Algorithm Results Comparison" class="center">
+{: refdef}
 
 From visual inspection of the images, the prewitt, fftderiv and canny produced the thinnest and accurate edge detection. These visual comparisons are backed up by the low percent error of the computed area to the analytical area of the shapes. Overall, the canny algorithm seems to outperform all the other.
 
@@ -138,20 +149,27 @@ From visual inspection of the images, the prewitt, fftderiv and canny produced t
 
 To test this, I went to google earth (left) and map (right) to searched my home, the decade old yet inviting, Yakal Residence Hall. The images below shows the sattelite view of my dorm.
 
+{:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/Image3_LA.png" alt="Yakal Dormitory" class="center">
+{: refdef}
 
 I uploaded the google map image (the image on the right above) to paint, whiten the area of the building and blacken everything else. The resulting image is shown below.
 
+{:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/Image4_LA.png" alt="Extracted Image" class="center">
+{: refdef}
 
 Applying Green's Theorem to find the area and comparing the five edge detection algorithms, my results are as follow.
 
+{:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/Image5_LA.png" alt="Extracted Image Results" class="center">
+{: refdef}
 
 The table below shows the summary of the results of the calculated area of the shapes using Green's theorem with different edge detection algorithms. 
 
+{:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/Table2_LA.png" alt="Edge Detection Algorithm Results Comparison 2" class="center">
-
+{: refdef}
 
 I found the actual area of the dormitory by getting the convex hull of the building in google maps. It is done by getting the smallest number of points to enclose the area. Google automotally calculated the area for me, so no sweat. The table above is fairly consistent from the results of the regular shapes. Indeed the canny algorithm best the other four. The offset of the canny method to the actual area is about 43 square meters which is roughly about four standard rooms. Not bad for my purpose of approximating areas with Green's theorem.
 
@@ -159,12 +177,15 @@ I found the actual area of the dormitory by getting the convex hull of the build
 
 The last part of the activity is an alternative method of length and area estimation. I scanned my 6 year old DOST atm card together with a ruler (for scaling and direct measurement). I definitely look different 6 years ago. The image is shown below.
 
-
+{:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/Image6_LA.png" alt="My DOST ID" class="center">
+{: refdef}
 
 I uploaded this image to ImageJ, a free open source software for measuring microscopic images. I drew a straight line across the horizontal and set the scales as shown below.
 
+{:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/Image7_LA.png" alt="DOST in ImageJ" class="center">
+{: refdef}
 
 After setting the scales, I know that the area of my card is 45.9 sq. cm. by physical measurements. I then used the free hand selection tool to draw a polygon that fits around the sides of my card. I clicked the measurements and it gave an area of 45.842 sq. cm. which is 0.12% away from the actual value. It was accurate though I was not even making tremendous effort on making the shape really fit the sides line to line.
 
@@ -188,27 +209,16 @@ References:
 
 [1] M. Soriano, “Length and Area estimation in images,” Applied Physics 186 Activity Hand-outs, 2014.
 
-​
-
 [2] Scilab Image Processing. Retrieved from:
-
-[link](http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html)
-
-​
+[http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html)
 
 [3] Wikipedia. Sobel Operator. Retrieved from:
-
-[link](https://en.wikipedia.org/wiki/Sobel_operator)
-
-​
+[http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](https://en.wikipedia.org/wiki/Sobel_operator)
 
 [4] Wikipedia. Prewitt Operator. Retrieved from:
+[http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](https://en.wikipedia.org/wiki/Prewitt_operator)
 
-[link](https://en.wikipedia.org/wiki/Prewitt_operator)
-
-​
-
-[5] Barteezy's Applied Physics Experience. Retrived from: [link](https://barteezy.wordpress.com/2015/09/06/activity-4-length-and-area-estimation-in-images/)
+[5] Barteezy's Applied Physics Experience. Retrived from: [http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](https://barteezy.wordpress.com/2015/09/06/activity-4-length-and-area-estimation-in-images/)
 
 
 
