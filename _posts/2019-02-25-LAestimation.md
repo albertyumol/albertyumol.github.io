@@ -25,14 +25,14 @@ This is all about area estimation using pixel coordiantes.
 
 There are a lot ways in which an area can be estimated given an image. The most basic approch would be directly counting the pixels that lie within a boundary and by sorting out the pixels by the magnitude of its intensity. But that's only one way of doing it. A more 'mathematical' and elegant approach is by using Green's Theorem. This theorem basically relates a double integral to a line integral [1]. 
 
-For some continuous function $$F_{1}$$ and $$F_{2}$$ (with continuous partial derivatives) that contains a region R, Green's Theorem relates that:
+For some continuous function $$F_{1}$$ and $$F_{2}$$ (with continuous partial derivatives) that contains a region $$R$$, Green's Theorem relates that:
 
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/Equation1_LA.png" alt="Equation 1" class="center">
 {: refdef}
 
-Suppose that F1=0, F2=x and F1=−y, F2=0, then at the region R and at the contour boundary C, using first equation,
+Suppose that $$F1=0$$, $$F2=x$$ and $$F1=−y$$, $$F2=0$$, then at the region $$R$$ and at the contour boundary $$C$$, using first equation,
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Equation2_LA.png" alt="Equation 2" class="center">
 
