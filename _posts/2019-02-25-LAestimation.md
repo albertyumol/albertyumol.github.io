@@ -23,7 +23,7 @@ There are a lot ways in which an area can be estimated given an image. The most 
 
 For some continuous function $$F_{1}$$ and $$F_{2}$$ (with continuous partial derivatives) that contains a region R, Green's Theorem relates that:
 
-
+<img src="{{ site.url }}{{ site.baseurl }}/images/Equation1_LA.png" alt="hi">
 
 
 
