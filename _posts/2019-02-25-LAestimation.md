@@ -12,11 +12,11 @@ mathjax: true
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
-{:refdef: style="text-align: center;"}
 More and more of our daily activites are becoming automated and digitized.
 Current technology relies a lot on computer data and its processing to make efficient decisions and solutions.
 One of such technologies involves optical sensing devices and smart camera systems.
 These technologies revolutionized the way we look at things from the very small to those that exceed our human proportions by orders of magnitude.
+{: .text-justify}
 
 In the field of medical technology, image processing is a milestone for capturing live and real time images of minute cells. 
 In space exploration, we have estimated the areas of the craters of the moon, approximated the heat of the sun, and even counted the very stars that made our heavens. 
@@ -30,7 +30,6 @@ But that's only one way of doing it. A more 'mathematical' and 'elegant' approac
 This theorem basically relates a double integral to a line integral [1]. 
 
 For some continuous function $$F_{1}$$ and $$F_{2}$$ (with continuous partial derivatives) that contains a region $$R$$, Green's Theorem relates that:
-{: refdef}
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/LA/Equation1_LA.png" alt="Equation 1" class="center">
@@ -68,38 +67,38 @@ In *Scilab*, the module **SIVP** (Scilab Image and Video Processing toolbox) has
 
 **sobel**
 
-<blockquote><p>
+<blockquote>
 <small>Detects edges, using the sobel gradient estimator.  
 It isbased on convolving the image with a small, separable, and integer-valued filter in the horizontal and vertical directions [3].</small>
-</p></blockquote>
+</blockquote>
 
 **prewitt**
 
-<blockquote><p>
+<blockquote>
 <small>Detects edges, using the prewitt gradient estimator. 
 Technically, it is a discrete differentiation operator, computing an approximation of the gradient of the image intensity function [4].</small>
-</p></blockquote>
+</blockquote>
 
 **log**
 
-<blockquote><p>
+<blockquote>
 <small>Detects edges, using the the Laplacian of Gaussian method. 
 $$\sigma$$ is the standard deviation of the Log filter and the size of the Log filter is $$nxn$$, where $$n = ceil(\sigma*3)*2+1$$. The default value for $$\sigma$$ is $$2$$.</small>
-</p></blockquote>
+</blockquote>
 
 **fftderiv**
 
-<blockquote><p>
+<blockquote>
 <small>Detects edges, using the FFT gradient method, default $$\sigma = 1.0$$</small>
-</p></blockquote>
+</blockquote>
 
 **canny**
 
-<blockquote><p>
+<blockquote>
 <small>Detects edges in *im*, using Canny method. *thresh* is a two-element vector, in which the fist element is the low threshold and the second one is the high threshold. 
 If *thresh* is a scalar, the low threshold is $$0.4*thresh$$ and the high one is *thresh*. Besides, *thresh* can not be negative scalar. 
 $$\sigma$$ is the Aperture parameter for Sobel operator, which must be 1, 3, 5 or 7; default $$thresh = 0.2$$; default $$\sigma = 3$$.</small>
-</p></blockquote>
+</blockquote>
 
 Green theorem is then applied to the edges of the shapes with the following code:
 
