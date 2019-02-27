@@ -78,7 +78,7 @@ Technically, it is a discrete differentiation operator, computing an approximati
 **log**
 
 <small>Detects edges, using the the Laplacian of Gaussian method. 
-$$/sigma$$ is the standard deviation of the Log filter and the size of the Log filter is $$nxn$$, where $$n = ceil(\sigma*3)*2+1$$. The default value for $$\sigma$$ is $$2$$.</small>
+$$\sigma$$ is the standard deviation of the Log filter and the size of the Log filter is $$nxn$$, where $$n = ceil(\sigma*3)*2+1$$. The default value for $$\sigma$$ is $$2$$.</small>
 
 **fftderiv**
 
