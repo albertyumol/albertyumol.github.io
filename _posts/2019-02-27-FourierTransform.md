@@ -87,7 +87,44 @@ Almost similar results were obtained for the square aperture as compared to that
 
 The last aperture is the gaussian bell curve with sigma = 0.9. 
 Theoretically, the FFT of a gaussian is still a gaussian. 
-Indeed, we see that the FFT of the gaussian is a seemingly small that when zoomed resembles a gaussian. The smaller size of the image can be attributed to the decreasing intensity of the gaussian aperture.
+Indeed, we see that the FFT of the gaussian is a seemingly small that when zoomed resembles a gaussian. 
+The smaller size of the image can be attributed to the decreasing intensity of the gaussian aperture.
+
+**Convolution**
+The next part of the activity is using FFT in the convolution process. 
+Basically convolution is just multiplication in frequency space. 
+The convolution between 2D functions f and g is given by,
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/FT/Equation2_FT.png" alt="Equation 2" class="center">
+{: refdef}
+
+But for what purpose does the FFT serve convolution? 
+Apparently, it was found out that the convolution of two signals is just the inverse FT of the product of these two signals’ FT. 
+To demonstrate this relation, we consider two images; a circular aperture and the word “VIP” (shorthand for Video Image Processing). 
+The two images serves as the two functions to be convolved. Shown below is the summary of the results with varying radius or aperture sizes,
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/FT/Image1_FT.png" alt="FT Operations for test image VIP" class="center">
+{: refdef}
+
+As we can infer from the images above, the is a direct effect to the output image when the aperture size is varied. 
+As the aperture size is increased the output image becomes more crisp meaning that the edges are more apparent. 
+This is because the FT of smaller circular aperture produces more Airy pattern causing a blurry output when used in convolution. 
+For a larger aperture, the FFT converges into a spot, making the output image crisp and clear.
+
+**Correlation**
+The next part of the Activity is on signal correlation. 
+Correlation is an operation that determines the degree of similarity between two signals. 
+For 2D functions, the correlation is given by,​
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/FT/Equation3_FT.png" alt="Equation 3" class="center">
+
+
+
+
+
+
 
 
 

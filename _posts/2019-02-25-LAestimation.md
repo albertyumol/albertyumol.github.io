@@ -66,24 +66,29 @@ In *Scilab*, the module **SIVP** (Scilab Image and Video Processing toolbox) has
 
 
 **sobel**
+
 <small>Detects edges, using the sobel gradient estimator.  
 It isbased on convolving the image with a small, separable, and integer-valued filter in the horizontal and vertical directions [3].</small>
 
 **prewitt**
+
 <small>Detects edges, using the prewitt gradient estimator. 
 Technically, it is a discrete differentiation operator, computing an approximation of the gradient of the image intensity function [4].</small>
 
 **log**
+
 <small>Detects edges, using the the Laplacian of Gaussian method. 
-$$/sigma$$ is the standard deviation of the Log filter and the size of the Log filter is $$nxn$$, where $$n = ceil(/sigma*3)*2+1$$. The default value for $$/sigma$$ is $$2$$.</small>
+$$/sigma$$ is the standard deviation of the Log filter and the size of the Log filter is $$nxn$$, where $$n = ceil(\sigma*3)*2+1$$. The default value for $$\sigma$$ is $$2$$.</small>
 
 **fftderiv**
-<small>Detects edges, using the FFT gradient method, default $$/sigma = 1.0$$</small>
+
+<small>Detects edges, using the FFT gradient method, default $$\sigma = 1.0$$</small>
 
 **canny**
+
 <small>Detects edges in *im*, using Canny method. *thresh* is a two-element vector, in which the fist element is the low threshold and the second one is the high threshold. 
 If *thresh* is a scalar, the low threshold is $$0.4*thresh$$ and the high one is *thresh*. Besides, *thresh* can not be negative scalar. 
-$$/sigma$$ is the Aperture parameter for Sobel operator, which must be 1, 3, 5 or 7; default $$thresh = 0.2$$; default $$/sigma = 3$$.</small>
+$$\sigma$$ is the Aperture parameter for Sobel operator, which must be 1, 3, 5 or 7; default $$thresh = 0.2$$; default $$\sigma = 3$$.</small>
 
 Green theorem is then applied to the edges of the shapes with the following code:
 
@@ -209,13 +214,18 @@ It was accurate enough even though I was not even making tremendous effort on ma
 ​
 
 References:
+
 [1] M. Soriano, “Length and Area estimation in images,” Applied Physics 186 Activity Hand-outs, 2014.
+
 [2] Scilab Image Processing. Retrieved from:
 [http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html)
+
 [3] Wikipedia. Sobel Operator. Retrieved from:
 [http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](https://en.wikipedia.org/wiki/Sobel_operator)
+
 [4] Wikipedia. Prewitt Operator. Retrieved from:
 [http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](https://en.wikipedia.org/wiki/Prewitt_operator)
+
 [5] Barteezy's Applied Physics Experience. Retrived from: [http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](https://barteezy.wordpress.com/2015/09/06/activity-4-length-and-area-estimation-in-images/)
 
 <div class="fb-comments" data-href="https://albertyumol.github.io/" data-numposts="5"></div>
