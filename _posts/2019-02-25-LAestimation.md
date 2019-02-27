@@ -67,8 +67,10 @@ In *Scilab*, the module **SIVP** (Scilab Image and Video Processing toolbox) has
 
 **sobel**
 
+<blockquote><p>
 <small>Detects edges, using the sobel gradient estimator.  
 It isbased on convolving the image with a small, separable, and integer-valued filter in the horizontal and vertical directions [3].</small>
+</p></blockquote>
 
 **prewitt**
 
