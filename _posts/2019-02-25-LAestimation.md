@@ -13,10 +13,10 @@ mathjax: true
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
 
-
-
-
-More and more of our daily activites are becoming automated and digitized. Current technology relies a lot on computer data and its processing to make efficient decisions and solutions. One of such technologies involves optical sensing devices and and smart camera systems. These technologies revolutionized the way we look at things from the very small to those that exceeds our human proportions by orders of magnitude.
+More and more of our daily activites are becoming automated and digitized. \n
+Current technology relies a lot on computer data and its processing to make efficient decisions and solutions. \n
+One of such technologies involves optical sensing devices and and smart camera systems. \n
+These technologies revolutionized the way we look at things from the very small to those that exceeds our human proportions by orders of magnitude.
 
 In field of medical technology, image processing is a milestone for capturing live and real time images of minute cells. In the field of space exploration we have estimated the areas of the craters of the moon, approximated the heat of the sun, and even counted the very stars that made our heavens. 
 
@@ -60,23 +60,18 @@ So that Green's Theorem can be applied, the edge of the shapes above should be d
 
 
 **sobel**
-
 <small>Detects edges, using the sobel gradient estimator.  It isbased on convolving the image with a small, separable, and integer-valued filter in the horizontal and vertical directions [3].</small>
 
 **prewitt**
-
 <small>Detects edges, using the prewitt gradient estimator.  Technically, it is a discrete differentiation operator, computing an approximation of the gradient of the image intensity function [4].</small>
 
 **log**
-
 <small>Detects edges, using the the Laplacian of Gaussian method. sigma is the standard deviation of the LoG filter and the size of the LoG filter is nxn, where $$n = ceil(sigma*3)*2+1$$. The default value for sigma is 2.</small>
 
 **fftderiv**
-
 <small>Detects edges, using the FFT gradient method, default sigma 1.0</small>
 
 **canny**
-
 <small>Detects edges in im, using Canny method. thresh is a two-element vector, in which the fist element is the low threshold and the second one is the high threshold. If thresh is a scalar, the low threshold is $$0.4*thresh$$ and the high one is thresh. Besides, thresh can not be negative scalar. sigma is the Aperture parameter for Sobel operator, which must be 1, 3, 5 or 7. default thresh 0.2; default sigma 3.</small>
 
 Implementing the Green's theorem and comparing the five edge detection algorithms, (the code can be found HERE [5])
@@ -193,8 +188,6 @@ After setting the scales, I know that the area of my card is 45.9 sq. cm. by phy
 
 This is the best activity that I have handled so far. I felt that this topic is of practical importance. I give myself 12/10 for almost spend my whole weekend trying to diminish the error by redoing the manual graycaling in paint.
 
-​
-
 I would like to thank VISSER for the scanner, wix.com for their very nice website platform and Barts for his insights and very helpful blog.
 
 ​
@@ -204,40 +197,13 @@ I would like to thank VISSER for the scanner, wix.com for their very nice websit
 ​
 
 References:
-
-​
-
 [1] M. Soriano, “Length and Area estimation in images,” Applied Physics 186 Activity Hand-outs, 2014.
-
 [2] Scilab Image Processing. Retrieved from:
 [http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html)
-
 [3] Wikipedia. Sobel Operator. Retrieved from:
 [http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](https://en.wikipedia.org/wiki/Sobel_operator)
-
 [4] Wikipedia. Prewitt Operator. Retrieved from:
 [http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](https://en.wikipedia.org/wiki/Prewitt_operator)
-
 [5] Barteezy's Applied Physics Experience. Retrived from: [http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](https://barteezy.wordpress.com/2015/09/06/activity-4-length-and-area-estimation-in-images/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div class="fb-comments" data-href="https://albertyumol.github.io/" data-numposts="5"></div>
