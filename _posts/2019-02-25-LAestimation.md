@@ -61,23 +61,23 @@ So that Green's Theorem can be applied, the edge of the shapes above should be d
 
 **sobel**
 
-Detects edges, using the sobel gradient estimator.  It isbased on convolving the image with a small, separable, and integer-valued filter in the horizontal and vertical directions [3].
+<small>Detects edges, using the sobel gradient estimator.  It isbased on convolving the image with a small, separable, and integer-valued filter in the horizontal and vertical directions [3].</small>
 
 **prewitt**
 
-Detects edges, using the prewitt gradient estimator.  Technically, it is a discrete differentiation operator, computing an approximation of the gradient of the image intensity function [4].
+<small>Detects edges, using the prewitt gradient estimator.  Technically, it is a discrete differentiation operator, computing an approximation of the gradient of the image intensity function [4].</small>
 
 **log**
 
-Detects edges, using the the Laplacian of Gaussian method. sigma is the standard deviation of the LoG filter and the size of the LoG filter is nxn, where $$n = ceil(sigma*3)*2+1$$. The default value for sigma is 2.
+<small>Detects edges, using the the Laplacian of Gaussian method. sigma is the standard deviation of the LoG filter and the size of the LoG filter is nxn, where $$n = ceil(sigma*3)*2+1$$. The default value for sigma is 2.</small>
 
 **fftderiv**
 
-Detects edges, using the FFT gradient method, default sigma 1.0
+<small>Detects edges, using the FFT gradient method, default sigma 1.0</small>
 
 **canny**
 
-Detects edges in im, using Canny method. thresh is a two-element vector, in which the fist element is the low threshold and the second one is the high threshold. If thresh is a scalar, the low threshold is $$0.4*thresh$$ and the high one is thresh. Besides, thresh can not be negative scalar. sigma is the Aperture parameter for Sobel operator, which must be 1, 3, 5 or 7. default thresh 0.2; default sigma 3.
+<small>Detects edges in im, using Canny method. thresh is a two-element vector, in which the fist element is the low threshold and the second one is the high threshold. If thresh is a scalar, the low threshold is $$0.4*thresh$$ and the high one is thresh. Besides, thresh can not be negative scalar. sigma is the Aperture parameter for Sobel operator, which must be 1, 3, 5 or 7. default thresh 0.2; default sigma 3.</small>
 
 Implementing the Green's theorem and comparing the five edge detection algorithms, (the code can be found HERE [5])
 
