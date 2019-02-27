@@ -16,7 +16,6 @@ More and more of our daily activites are becoming automated and digitized.
 Current technology relies a lot on computer data and its processing to make efficient decisions and solutions.
 One of such technologies involves optical sensing devices and smart camera systems.
 These technologies revolutionized the way we look at things from the very small to those that exceed our human proportions by orders of magnitude.
-{: .text-justify}
 
 In the field of medical technology, image processing is a milestone for capturing live and real time images of minute cells. 
 In space exploration, we have estimated the areas of the craters of the moon, approximated the heat of the sun, and even counted the very stars that made our heavens. 
