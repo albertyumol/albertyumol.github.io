@@ -1,16 +1,94 @@
 ---
-title: "Length and Area Estimation in Images"
-date: 2019-02-25
-tags: [image processing, discrete calculus, edge detection]
+title: "Fourier Transform Model of Image Formation"
+date: 2019-02-27
+tags: [image processing, fourier transformation]
 header:
   image: "/images/julia2.gif"
-excerpt: "Two dimensional Estimations from Images using Scilab and ImageJ."
+excerpt: "Fourier Transform operation on different sample images."
 mathjax: true
 
 ---
 
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+
+Through out my physics “career”, there is one mathematical trick that always hunts me. 
+May it be signal analysis, optical systems, acoustics and of course image processing. 
+You probably know what I mean. The all famous and magnanimous Fourier Transform. 
+You will never attain a physics degree if you have never mastered or been haunted by the Fourier transform.
+
+The Fourier Transform (FT) was formulated by Joseph Fourier in 1822 [1]. 
+He showed that a lot of mathematical functions could be represented as as a sum of sines and cosines. 
+Physically, FT converts a signal in X dimension to a signal with 1/X dimension. 
+Given an image f(x,y), the FT is give by:
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/FT/Equation1_FT.png" alt="Equation 1" class="center">
+{: refdef}
+
+where fx and fy are spatial frequencies along x and y respectively [2]. 
+We can treat the FT process as analogous to a simple lens system. 
+As light from an object passes through an aperture, an inverted image of the object is formed. 
+The FT operation can be treated as the aperture of the lens system.
+
+In numerical calculations and simulations, the best way (from my experience) of implementing FT is the Fast Fourier Transform (FFT). 
+This method of FT implementation was developed by Cooley and Tukey. 
+Almost all programming languages have modules for implementing the mighty FFT. 
+
+**Familiarization with discrete FFT**
+In this activity, different apertures (or FT operations) will be compared based from the corresponding image produced. 
+With the knowledge of how FT works, two operations, namely convolution and correlation will be implemented for 2D signals. 
+Lastly, an edge-detection technique would be implemented using the FT. Shown below is the summary of the results for different apertures.
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/FT/Image1_FT.png" alt="FT Operations across different apertures" class="center">
+{: refdef}
+
+The goal is to find the fat of a circle, the letter A, sinusoid along the x-axis (corrugated roof), a double slit, a square and a gaussian bell curve. 
+The circle, the corrugated roof, the square, and the gaussian bell curve were generated with scilab while the letter A and the double slit was manually drawn in paint. 
+All of the synthetic images are all 128x128. If you are interested on how to generate some of these synthetic images in scilab, click here for Activity 3: Scilab Basics.
+
+We start first with the basic circular aperture. 
+After importing the image, it was converted to grayscale so that we can discretize the image intensity values from 0 to 255. 
+FFT is then is performed to the image using fft2() for two dimensional fft.
+
+The FFT operation outputs complex numbers so the abs() function is used to get the magnitude. 
+Remember as well that in FFT, the diagonal quadrants of the image are interchanged. 
+To correct this, the fftshift() is used.
+
+To check if correct transformation was successful, the inverse FFT of the acquired image is obtained. 
+Theoretically, the output from this operation should be the same values as the input image only inverted. 
+Real and imaginary values of the images are also shown below.
+
+From the FFT of the circle we see that it is composed of concentric circles with densities higher at the centre. 
+This pretty pattern is often termed as the Airy Pattern. 
+In this case, image inversion cannot be discerned since the a circle is both symmetric in the x and y axis.
+
+Zooming in to this image we clearly see alternating dark and bright bands that we call fringes. 
+This pattern can be explained by the action of constructive and destructive interference as in optical imaging systems. 
+Since “light” converges at the focal point (centre of the aperture), the most intense or the whitest part should be seen at the centre.
+
+Generally we see the same features for the other apertures. 
+For the letter A, its FFT were translated horizontally. 
+This is because in FFT operation we observe the image in the spatial frequency domain or 1/X dimension. 
+The letter A is chosen to easily discern the image inversion and and the transformation from X domain to 1/X domain.
+
+The next aperture is the corrugated roof pattern (sinusoid along x). 
+Again, an airy pattern is observed. 
+In the FFT of the image, the intensity is highest at the centre since the parallel rays converge to the focus. 
+This patterns can be interpreted physically as the location of the spatial frequency of the signal since the aperture is a sinusoid.
+
+The next aperture is the famous double slit pattern. This is so cool. 
+We have just confirmed Young’s experiment using Scilab! 
+Obviously we would observe an interference pattern from the FFT of the double slit. 
+From the results, we see that the interference patterns occurs both at the horizontal and vertical axis.
+
+Almost similar results were obtained for the square aperture as compared to that of the circle with exception of the shape of the acquired image.
+
+The last aperture is the gaussian bell curve with sigma = 0.9. 
+Theoretically, the FFT of a gaussian is still a gaussian. 
+Indeed, we see that the FFT of the gaussian is a seemingly small that when zoomed resembles a gaussian. The smaller size of the image can be attributed to the decreasing intensity of the gaussian aperture.
+
 
 
 More and more of our daily activites are becoming automated and digitized.
@@ -66,24 +144,19 @@ In *Scilab*, the module **SIVP** (Scilab Image and Video Processing toolbox) has
 
 
 **sobel**
-<small>Detects edges, using the sobel gradient estimator.  
-It isbased on convolving the image with a small, separable, and integer-valued filter in the horizontal and vertical directions [3].</small>
+<small>Detects edges, using the sobel gradient estimator.  It isbased on convolving the image with a small, separable, and integer-valued filter in the horizontal and vertical directions [3].</small>
 
 **prewitt**
-<small>Detects edges, using the prewitt gradient estimator. 
-Technically, it is a discrete differentiation operator, computing an approximation of the gradient of the image intensity function [4].</small>
+<small>Detects edges, using the prewitt gradient estimator.  Technically, it is a discrete differentiation operator, computing an approximation of the gradient of the image intensity function [4].</small>
 
 **log**
-<small>Detects edges, using the the Laplacian of Gaussian method. 
-$$/sigma$$ is the standard deviation of the Log filter and the size of the Log filter is $$nxn$$, where $$n = ceil(/sigma*3)*2+1$$. The default value for $$/sigma$$ is $$2$$.</small>
+<small>Detects edges, using the the Laplacian of Gaussian method. sigma is the standard deviation of the LoG filter and the size of the LoG filter is nxn, where $$n = ceil(sigma*3)*2+1$$. The default value for sigma is 2.</small>
 
 **fftderiv**
-<small>Detects edges, using the FFT gradient method, default $$/sigma = 1.0$$</small>
+<small>Detects edges, using the FFT gradient method, default sigma 1.0</small>
 
 **canny**
-<small>Detects edges in *im*, using Canny method. *thresh* is a two-element vector, in which the fist element is the low threshold and the second one is the high threshold. 
-If *thresh* is a scalar, the low threshold is $$0.4*thresh$$ and the high one is *thresh*. Besides, *thresh* can not be negative scalar. 
-$$/sigma$$ is the Aperture parameter for Sobel operator, which must be 1, 3, 5 or 7; default $$thresh = 0.2$$; default $$/sigma = 3$$.</small>
+<small>Detects edges in im, using Canny method. thresh is a two-element vector, in which the fist element is the low threshold and the second one is the high threshold. If thresh is a scalar, the low threshold is $$0.4*thresh$$ and the high one is thresh. Besides, thresh can not be negative scalar. sigma is the Aperture parameter for Sobel operator, which must be 1, 3, 5 or 7. default thresh 0.2; default sigma 3.</small>
 
 Green theorem is then applied to the edges of the shapes with the following code:
 
