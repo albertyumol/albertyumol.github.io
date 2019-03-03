@@ -4,7 +4,7 @@ date: 2019-02-25
 tags: [Image Processing]
 header:
   image: "/images/julia2.gif"
-  teaser: "/images/Image3_LA.png"
+  teaser: "/images/LA/Image3_LA.png"
 excerpt: "Two dimensional Estimations from Images using Scilab and ImageJ."
 mathjax: true
 
