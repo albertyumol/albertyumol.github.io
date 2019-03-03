@@ -4,6 +4,7 @@ date: 2019-02-27
 tags: [Image Processing]
 header:
   image: "/images/julia2.gif"
+  teaser: "/images/FT/Image2_FT.png"
 excerpt: "Fourier Transform operation on different sample images."
 mathjax: true
 
