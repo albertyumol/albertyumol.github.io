@@ -6,8 +6,8 @@ main:
     url: /projects/
   - title: "Life"
     url: /life/
-  #- title: "IoT"
-  #  url: /IoT/
+  - title: "Random"
+    url: /random/
   #- title: "Advocacy"
   #  url: /advocay/
   # - title: "Sitemap"
