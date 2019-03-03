@@ -1,11 +1,11 @@
 ---
 layout: archive
-permalink: /image-processing/
-title: "Image Processing Posts by Tags"
+permalink: /projects/
+title: "Projects by Tags"
 author_profile: true
 header:
   image: "/images/julia2.gif"
-  
+
 ---
 
 {% include group-by-array collection=site.posts field="tags" %}

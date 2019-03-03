@@ -2,13 +2,13 @@
 main:
   - title: "About"
     url: /about/ #https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Image Processing"
-    url: /image-processing/
-  - title: "Machine Learning"
-    url: /machine-learning/
-  - title: "IoT"
-    url: /IoT/
-  - title: "Advocacy"
-    url: /advocay/
+  - title: "Projects"
+    url: /projects/
+  #- title: "Machine Learning"
+  #  url: /machine-learning/
+  #- title: "IoT"
+  #  url: /IoT/
+  #- title: "Advocacy"
+  #  url: /advocay/
   # - title: "Sitemap"
   #   url: /sitemap/
