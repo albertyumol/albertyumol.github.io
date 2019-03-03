@@ -4,8 +4,8 @@ main:
     url: /about/ #https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Projects"
     url: /projects/
-  #- title: "Machine Learning"
-  #  url: /machine-learning/
+  - title: "Life"
+    url: /life/
   #- title: "IoT"
   #  url: /IoT/
   #- title: "Advocacy"
