@@ -13,7 +13,7 @@
 
   &__inner-wrap {
     @include clearfix;
-    margin-left: 20px;
+    margin-left: 0.2em;
     margin-right: 0.2em;
     max-width: 100%;
     display: -webkit-box;
@@ -64,7 +64,7 @@
     margin-left: 0;
 
     @include breakpoint($small) {
-      float: right;
+      float: left;
     }
   }
 
