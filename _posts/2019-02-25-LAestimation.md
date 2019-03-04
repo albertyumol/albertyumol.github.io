@@ -102,7 +102,7 @@ sigma is the Aperture parameter for Sobel operator, which must be 1, 3, 5 or 7; 
 
 Green theorem is then applied to the edges of the shapes with the following code:
 
-{% gist 275d160fe1d639dae3643f6ed64ecd6069cd38f3 %}
+<script src="https://gist.github.com/albertyumol/b58455d4058c1f4a9afdab5a2e89abe8.js"></script>
 
 The comparison of how the five edge detection algorithms performed is shown,
 
