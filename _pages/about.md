@@ -25,3 +25,9 @@ The Drunkards Walk
 <blockquote>
 <small>The story of how randomness and random numbers changed us.</small>
 </blockquote>
+
+The Elements of Style
+
+<blockquote>
+<small>Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts. This requires not that the writer make all his sentences short, or that he avoid all detail and treat his subjects only in the outline, but that every word tell.</small>
+</blockquote>
