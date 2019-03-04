@@ -4,7 +4,7 @@
 
 .masthead {
   position: relative;
-  border-bottom: 0.5px solid $border-color;
+  border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
@@ -15,14 +15,19 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
+    padding: 1em;
+    max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 1em;
     font-family: $sans-serif-narrow;
+
+    @include breakpoint($x-large) {
+      max-width: $x-large;
+    }
 
     nav {
       z-index: 10;
@@ -49,7 +54,7 @@
 }
 
 .masthead__menu {
-  float: right;
+  float: left;
   margin-left: 0;
   margin-right: 0;
   width: 100%;
@@ -75,10 +80,9 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  margin-right: 0;
 
   &--lg {
-    padding-right: 0.2em;
+    padding-right: 2em;
     font-weight: 700;
   }
 }
