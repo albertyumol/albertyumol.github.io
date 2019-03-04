@@ -13,7 +13,6 @@
 
   &__inner-wrap {
     @include clearfix;
-    @include container;
     margin-left: 0.5em;
     margin-right: 0.2em;
     display: -webkit-box;
