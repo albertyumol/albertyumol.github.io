@@ -5,7 +5,7 @@ tags: [Image Processing]
 header:
   image: "/images/julia2.gif"
   teaser: "/images/LA/Image3_LA.png"
-excerpt: "Two dimensional Estimations from Images using Scilab and ImageJ."
+excerpt: "This post focuses on conducting two dimensional estimations from images using Scilab and ImageJ. The code is based on Green's Theorem and common edge detection algorthms. Practical applications include area estimations on satellite images and microscopic samples."
 mathjax: true
 
 ---
@@ -13,16 +13,16 @@ mathjax: true
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
-More and more of our daily activites are becoming automated and digitized.
+More and more of our daily activities are becoming automated and digitized.
 Current technology relies a lot on computer data and its processing to make efficient decisions and solutions.
-One of such technologies involves optical sensing devices and smart camera systems.
+Few of such technologies involve optical sensing devices and smart camera systems.
 These technologies revolutionized the way we look at things from the very small to those that exceed our human proportions by orders of magnitude.
 
 In the field of medical technology, image processing is a milestone for capturing live and real time images of minute cells.
 In space exploration, we have estimated the areas of the craters of the moon, approximated the heat of the sun, and even counted the very stars that made our heavens.
 
 This $$blog post$$ is a taste of those applications in a VERY simplified manner.
-Same concepts, same math, minus the proportions area estimation using pixel coordinates.
+Same concepts, same math, minus the proportions.
 
 There are a lot ways in which an area can be estimated given an image.
 The most basic and most rigorous approach would be directly counting the pixels that lie within a boundary and by sorting out the pixels by the magnitude of its intensity.
@@ -54,7 +54,7 @@ In discrete form,
 {: refdef}
 
 For the first part, I used Green's Theorem to find the area of regular shapes.
-Using *Scilab*, I generated a circle with radius of $$0.7 units$$, a rectangle with length $$1.4 units$$ and width $$1 unit$$, a tringle with height $$0.5 unit$$ of and base of $$1 unit$$.
+Using *Scilab*, I generated a circle with radius of $$0.7 units$$, a rectangle with length $$1.4 units$$ and width $$1 unit$$, a triangle with height $$0.5 unit$$ of and base of $$1 unit$$.
 Shown below are the synthetic images.
 
 {:refdef: style="text-align: center;"}
@@ -83,13 +83,13 @@ Technically, it is a discrete differentiation operator, computing an approximati
 
 <blockquote>
 <small>Detects edges, using the the Laplacian of Gaussian method.
-$$\sigma$$ is the standard deviation of the Log filter and the size of the Log filter is $$nxn$$, where $$n = ceil(\sigma*3)*2+1$$. The default value for $$\sigma$$ is $$2$$.</small>
+sigma (default: 2) is the standard deviation of the Log filter and the size of the Log filter is nxn, where $$n = ceil(\sigma*3)*2+1$$. </small>
 </blockquote>
 
 **fftderiv**
 
 <blockquote>
-<small>Detects edges, using the FFT gradient method, default $$\sigma = 1.0$$</small>
+<small>Detects edges, using the FFT gradient method, (default: sigma = 1)</small>
 </blockquote>
 
 **canny**
@@ -97,60 +97,12 @@ $$\sigma$$ is the standard deviation of the Log filter and the size of the Log f
 <blockquote>
 <small>Detects edges in *im*, using Canny method. *thresh* is a two-element vector, in which the fist element is the low threshold and the second one is the high threshold.
 If *thresh* is a scalar, the low threshold is $$0.4*thresh$$ and the high one is *thresh*. Besides, *thresh* can not be negative scalar.
-$$\sigma$$ is the Aperture parameter for Sobel operator, which must be 1, 3, 5 or 7; default $$thresh = 0.2$$; default $$\sigma = 3$$.</small>
+sigma is the Aperture parameter for Sobel operator, which must be 1, 3, 5 or 7; (default: thresh = 0.2; sigma = 3).</small>
 </blockquote>
 
 Green theorem is then applied to the edges of the shapes with the following code:
 
-{% highlight scilab %}
-//Opens the image to be processed
-Circle = imread('C:\Users\csrc-lab03\Desktop\yakal5.bmp');
-Circle = rgb2gray(Circle)
-
-//Use edge() function sobel
-edge_sobel = edge(Circle,'canny');
-imshow(edge_sobel);
-imwrite(edge_sobel,'Circle_sobel.bmp');
-
-//Edge pixel coordinates
-[i_x,i_y] = find(edge_sobel);
-
-//Locate centroid coordinates (in pixels) using average.
-//sum([]) adds the elements in []. size([],2) gets the number of columns.
-x_center = sum(i_x)/size(i_x,2);
-y_center = sum(i_y)/size(i_y,2);
-
-//Calculate position magnitude r and angle theta
-x_loc = i_x - x_center;
-y_loc = i_y - y_center;
-r = sqrt((x_loc).^2+(y_loc).^2);
-theta = atan((y_loc),(x_loc));
-
-//Sort values according to increasing angle. gsort() function is used.
-//theta_sorted is the sorted angle array, and is its corresponding index in the unsorted array
-//'g' sorts all elements in 'i' increasing order
-
-//Contains the values x and y pixels (transposed).
-[theta_sorted, index] = gsort(theta','g','i');
-xy_array = [x_loc;y_loc]'
-
-//Sort x and y coordinates according to increasing angle.
-xy_sorted = xy_array(index,:);
-x_sorted = xy_sorted(:,1);
-y_sorted = xy_sorted(:,2);
-
-//Apply Green's finction in x_sorted and y_sorted. Obtain summations xdy and ydx for area computation.
-xdy = sum(x_sorted(1:size(x_sorted,1)-1).*y_sorted(2:size(y_sorted,1)));
-ydx = sum(y_sorted(1:size(y_sorted,1)-1).*x_sorted(2:size(x_sorted,1)));
-Area_Comp = 0.5*(xdy - ydx);
-
-//Compute Theoretical Area
-Area_Theo = length(find(Circle==255));
-
-//Compute % error
-Error = 100*abs(Area_Comp - Area_Theo)/Area_Theo;
-disp(Area_Comp); disp(Area_Theo); disp(Error);
-{% endhighlight %}
+{% gist 275d160fe1d639dae3643f6ed64ecd6069cd38f3 %}
 
 The comparison of how the five edge detection algorithms performed is shown,
 
@@ -169,7 +121,7 @@ These visual comparisons are backed up by the low percent error of the computed 
 Overall, the **canny** algorithm seems to outperform all the other given that it produced the least error value.
 
 To test this, I went to **Google Earth** (left) and **Google Maps** (right) and searched my beloved dormitory in UP (Yakal Residence Hall).
-The images below show the sattelite view of the dormitory.
+The images below show the satellite view of the dormitory.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/LA/Image3_LA.png" alt="Yakal Dormitory" class="center">
