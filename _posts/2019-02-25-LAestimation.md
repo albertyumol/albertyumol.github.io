@@ -3,7 +3,7 @@ title: "Length and Area Estimation in Images"
 date: 2019-02-25
 tags: [Image Processing]
 header:
-  image: "/images/julia2.gif"
+  #image: "/images/julia2.gif"
   teaser: "/images/LA/Image3_LA.png"
 excerpt: "This post focuses on conducting two dimensional estimations from images using Scilab and ImageJ. The code is based on Green's Theorem and common edge detection algorthms. Practical applications include area estimations on satellite images and microscopic samples."
 mathjax: true
