@@ -1,4 +1,5 @@
-title: "Length and Area Estimation in Images"
+---
+title: "On the Jeepney Modernization Program"
 date: 2019-03-07
 tags: [Issues and Society]
 header:
@@ -13,7 +14,7 @@ mathjax: true
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/jeepney.png" alt="Equation 1" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/jeepney.png" alt="Jeep Mob" class="center">
 {: refdef}
 
 The issue of the Jeepney phase out had caused
