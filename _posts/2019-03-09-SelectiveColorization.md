@@ -55,7 +55,7 @@ Here is my sample image:
 {: refdef}
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/gimp/image_in_gimp.png” alt="Kids in Trafalgar Square" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gimp/image_in_gimp.png" alt="Kids in Trafalgar Square" class="center">
 {: refdef}
 
 **2.** Duplicate image from Layer > Duplicate Layer
@@ -105,7 +105,7 @@ I recommend using 400% zoom as it is easier to cleanly resurface the color at th
 This is the image that I produced after the selective colorization process.
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/gimp/base_image_desaturated.png" alt="base_image_desaturated" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gimp/base_image_desaturated.JPG" alt="base_image_desaturated" class="center">
 {: refdef}
 
 Here are other photos that I had fun to play with:
