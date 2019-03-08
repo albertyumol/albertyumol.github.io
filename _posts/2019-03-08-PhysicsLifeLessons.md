@@ -19,7 +19,7 @@ mathjax: true
 Most of my new acquaintances when trying to guess my degree, think that I am from the arts and humanities department. I mean look at my aesthetic:
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/gimp/gimp_logo.png” alt="gimp" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gimp/gimp_logo.png” alt="Official GIMP Logo" class="center">
 {: refdef}
 
 my hair was always dyed, I talk like a politician, and I believe in fairies. Even my parents would never have had imagine me in a lab gown mixing glowing concoctions, wiring complex circuitry, aligning lasers and optical elements, or solving impossible equations in more than three dimensions.
