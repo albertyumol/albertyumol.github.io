@@ -1,12 +1,12 @@
 ---
 title: "Selective Colorization in GIMP"
-date: 2019-03-08
+date: 2019-03-09
 tags: [Image Processing]
 header:
   #image: "/images/julia2.gif"
   #image: "/images/backdrop7.png"
   teaser: "/images/gimp/desaturation.JPG"
-excerpt: "Random insights from a physics kamote dreaming to be an astronaut."
+excerpt: "My real first experience with an image editor software."
 mathjax: true
 
 ---
