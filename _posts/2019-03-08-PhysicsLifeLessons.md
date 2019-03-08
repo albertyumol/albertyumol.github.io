@@ -93,7 +93,9 @@ The point is, most of our struggles are not at all isolated. As C. Write Mills t
 
 Recognition of these structures is one goal of life. But recognition should not be the end goal. We are reminded by Karl Marx in his Eleven Theses on Feuerbach:
 
-"The philosophers have only interpreted the world, in various ways. The point, however, is to change it."
+<blockquote>
+<small>The philosophers have only interpreted the world, in various ways. The point, however, is to change it.</small>
+</blockquote>
 
 As a final word, my college education didn't necessarily taught me physics. It however somewhat prepared me what to expect in life. It armed me with the skills not only to cope and survive but also make an impact in the society. I am still hoping to be that astronaut in the future, while in the process I need to do my fair share to make this world better for others.
 
