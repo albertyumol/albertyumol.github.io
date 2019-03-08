@@ -99,4 +99,8 @@ Recognition of these structures is one goal of life. But recognition should not 
 
 As a final word, my college education didn't necessarily taught me physics. It however somewhat prepared me what to expect in life. It armed me with the skills not only to cope and survive but also make an impact in the society. I am still hoping to be that astronaut in the future, while in the process I need to do my fair share to make this world better for others.
 
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/gimp/gimp_logo.png” alt="gimp" class="center">
+{: refdef}
+
 <div class="fb-comments" data-href="https://albertyumol.github.io/" data-numposts="5"></div>
