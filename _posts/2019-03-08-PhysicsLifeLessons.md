@@ -16,10 +16,6 @@ mathjax: true
 Most of my new acquaintances when trying to guess my degree, think that I am from the arts and humanities department. I mean look at my aesthetic:
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/gimp/gimp_logo.png” alt="Official GIMP Logo" class="center">
-{: refdef}
-
-{:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/physics_kamote.png" alt="Me in Borobudur Temple" class="center">
 {: refdef}
 
