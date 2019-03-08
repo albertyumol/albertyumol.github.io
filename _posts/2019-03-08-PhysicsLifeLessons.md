@@ -5,9 +5,6 @@ tags: [Life and Physics]
 header:
   #image: "/images/julia2.gif"
   #image: "/images/backdrop7.png"
-  ##{:refdef: style="text-align: center;"}
-  #<img src="{{ site.url }}{{ site.baseurl }}/images/#physics_kamote.png" alt="Me in Borobudur Temple" class="center">
-  ##{: refdef}
   teaser: "/images/physics_kamote.png"
 excerpt: "Random insights from a physics kamote dreaming to be an astronaut."
 mathjax: true
@@ -20,6 +17,10 @@ Most of my new acquaintances when trying to guess my degree, think that I am fro
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/gimp/gimp_logo.png” alt="Official GIMP Logo" class="center">
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/physics_kamote.png" alt="Me in Borobudur Temple" class="center">
 {: refdef}
 
 my hair was always dyed, I talk like a politician, and I believe in fairies. Even my parents would never have had imagine me in a lab gown mixing glowing concoctions, wiring complex circuitry, aligning lasers and optical elements, or solving impossible equations in more than three dimensions.
