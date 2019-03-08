@@ -1,6 +1,6 @@
 ---
 title: "Lessons from my physics degree that have nothing to do with physics"
-date: 2019-03-07
+date: 2019-03-08
 tags: [Life and Physics]
 header:
   #image: "/images/julia2.gif"
