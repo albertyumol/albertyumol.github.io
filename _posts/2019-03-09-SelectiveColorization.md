@@ -51,7 +51,7 @@ Selective colorization for our purpose is defined as selecting / highlighting an
 Here is my sample image:
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/gimp/base_image.JPG" alt="Kids in Trafalgar Square" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gimp/base_image1.JPG" alt="Kids in Trafalgar Square" class="center">
 {: refdef}
 
 {:refdef: style="text-align: center;"}
