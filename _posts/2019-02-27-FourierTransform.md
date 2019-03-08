@@ -3,9 +3,9 @@ title: "Fourier Transform Model of Image Formation"
 date: 2019-02-27
 tags: [Image Processing]
 header:
-  image: "/images/julia2.gif"
+  #image: "/images/julia2.gif"
   teaser: "/images/FT/Image2_FT.png"
-excerpt: "Fourier Transform operation on different sample images."
+excerpt: "Different apertures (or Fourier Transform (FT) operations) are compared based from the corresponding image produced. With the knowledge of how FT works, two operations, namely convolution and correlation will be implemented for 2D signals. As an application, an edge-detection technique would be implemented using the FT."
 mathjax: true
 
 ---
@@ -13,23 +13,23 @@ mathjax: true
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
-Through out my physics “career”, there is one mathematical trick that always hunts me.
-May it be signal analysis, optical systems, acoustics and of course image processing.
-You probably know what I mean. The all famous and magnanimous Fourier Transform.
-You will never attain a physics degree if you have never mastered or been haunted by the Fourier transform.
+Throughout my physics 'career', there is one mathematical trick that always haunts me. Be it signal analysis, optical systems, acoustics and of course image processing.
+You probably know what I mean if you've encountered these topics and a whole lot of applied math before. I am talking about the all famous and magnanimous Fourier Transform (FT). I still hear my professors saying that everything is just a signal that can be described as a series of sines and cosines.
+
+Every scientist and engineer, before they get their degrees will have to master or be haunted by the FT.
 
 The Fourier Transform (FT) was formulated by Joseph Fourier in 1822 [1].
-He showed that a lot of mathematical functions could be represented as as a sum of sines and cosines.
-Physically, FT converts a signal in X dimension to a signal with 1/X dimension.
-Given an image f(x,y), the FT is give by:
+He showed that a lot of mathematical functions could be represented as a sum of sines and cosines.
+Physically, FT converts a signal in $$X$$ dimension to a signal in $$1/X$$ dimension.
+Given an image $$f(x,y)$$, the FT is defined as:
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/FT/Equation1_FT.png" alt="Equation 1" class="center">
 {: refdef}
 
-where fx and fy are spatial frequencies along x and y respectively [2].
+where $$f_x$$ and $$f_y$$ are spatial frequencies along $$x$$ and $$y$$ respectively [2].
 We can treat the FT process as analogous to a simple lens system.
-As light from an object passes through an aperture, an inverted image of the object is formed.
+As light from an object passes through an aperture, an inverted image of the that object is formed in the image plane.
 The FT operation can be treated as the aperture of the lens system.
 
 In numerical calculations and simulations, the best way (from my experience) of implementing FT is the Fast Fourier Transform (FFT).
@@ -38,7 +38,7 @@ Almost all programming languages have modules for implementing the mighty FFT.
 
 **Familiarization with discrete FFT**
 
-In this activity, different apertures (or FT operations) will be compared based from the corresponding image produced.
+In this post, different apertures (or FT operations) will be compared based from the corresponding image produced.
 With the knowledge of how FT works, two operations, namely convolution and correlation will be implemented for 2D signals.
 Lastly, an edge-detection technique would be implemented using the FT. Shown below is the summary of the results for different apertures.
 
@@ -178,5 +178,12 @@ I would like to thank wix.com for their very nice website platform, Barts for hi
 
 [3] Barteezy's Applied Physics Experience. Retrived from: [https://barteezy.wordpress.com/2015/09/19/activity-5-fourier-transform-model-of-image-formati/](https://barteezy.wordpress.com/2015/09/19/activity-5-fourier-transform-model-of-image-formati/)
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6410209740119334",
+    enable_page_level_ads: true
+  });
+</script>
 
 <div class="fb-comments" data-href="https://albertyumol.github.io/" data-numposts="5"></div>

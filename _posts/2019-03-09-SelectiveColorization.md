@@ -118,4 +118,12 @@ Here are other photos that I had fun to play with:
 <img src="{{ site.url }}{{ site.baseurl }}/images/gimp/anti_china_kids.JPG" alt="anti_china_kids" class="center">
 {: refdef}
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6410209740119334",
+    enable_page_level_ads: true
+  });
+</script>
+
 <div class="fb-comments" data-href="https://albertyumol.github.io/" data-numposts="5"></div>

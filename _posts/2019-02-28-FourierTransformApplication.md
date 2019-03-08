@@ -3,7 +3,7 @@ title: "Properties and Applications of the 2D Fourier Transform"
 date: 2019-02-28
 tags: [Image Processing]
 header:
-  image: "/images/julia2.gif"
+  #image: "/images/julia2.gif"
   teaser: "/images/FTA/Image1_FTA.png"
 excerpt: "Fourier Transform Applications on Image Cleaning"
 mathjax: true

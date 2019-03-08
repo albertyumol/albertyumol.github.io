@@ -191,4 +191,12 @@ References:
 
 [5] Barteezy's Applied Physics Experience. Retrived from: [http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](https://barteezy.wordpress.com/2015/09/06/activity-4-length-and-area-estimation-in-images/)
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6410209740119334",
+    enable_page_level_ads: true
+  });
+</script>
+
 <div class="fb-comments" data-href="https://albertyumol.github.io/" data-numposts="5"></div>
