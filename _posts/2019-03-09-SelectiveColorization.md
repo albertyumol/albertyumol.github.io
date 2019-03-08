@@ -47,7 +47,7 @@ Selective colorization for our purpose is defined as selecting / highlighting an
 {: refdef}
 
 
-1. Select an image of interest (preferably with outstanding and loud colors for easier separation) and open with GIMP.
+**1.** Select an image of interest (preferably with outstanding and loud colors for easier separation) and open with GIMP.
 Here is my sample image:
 
 {:refdef: style="text-align: center;"}
@@ -58,13 +58,13 @@ Here is my sample image:
 <img src="{{ site.url }}{{ site.baseurl }}/images/gimp/image_in_gimp.png” alt="Kids in Trafalgar Square" class="center">
 {: refdef}
 
-2. Duplicate image from Layer > Duplicate Layer
+**2.** Duplicate image from Layer > Duplicate Layer
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/gimp/duplicate_layer.png” alt="duplicate_layer" class="center">
 {: refdef}
 
-3. Click on the duplicate image and Desaturate (meaning to remove colors) it from Colors > Desaturate > Desaturate and select the mode as Average (HSI Intensity). You should see that the duplicate image turns gray.
+**3.** Click on the duplicate image and Desaturate (meaning to remove colors) it from Colors > Desaturate > Desaturate and select the mode as Average (HSI Intensity). You should see that the duplicate image turns gray.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/gimp/duplicate_layer_select.png” alt="duplicate_layer_select" class="center">
@@ -78,7 +78,7 @@ Here is my sample image:
 <img src="{{ site.url }}{{ site.baseurl }}/images/gimp/average_hsi.png” alt="desaturate_desaturate" class="center">
 {: refdef}
 
-4. Still manipulating with this gray image, we need to add a layer mask. Click through Layer > Mask > Add Layer Mask and select White (full opacity) then add.
+**4.** Still manipulating with this gray image, we need to add a layer mask. Click through Layer > Mask > Add Layer Mask and select White (full opacity) then add.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/gimp/add_layer_mask.png” alt="desaturate_desaturate" class="center">
@@ -88,13 +88,13 @@ Here is my sample image:
 <img src="{{ site.url }}{{ site.baseurl }}/images/gimp/white.png” alt="white" class="center">
 {: refdef}
 
-5. Next, in the toolbox on the left side, select the eraser tool. At the bottom of the toolbox, make sure that the foreground palette is set to white while the background is black.
+**5.** Next, in the toolbox on the left side, select the eraser tool. At the bottom of the toolbox, make sure that the foreground palette is set to white while the background is black.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/gimp/eraser.png” alt="eraser" class="center">
 {: refdef}
 
-6. Zoom in to your object of interest and with the eraser tool brush through to unmask the color.
+**6.** Zoom in to your object of interest and with the eraser tool brush through to unmask the color.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/gimp/zoom.png” alt="zoom" class="center">
