@@ -5,6 +5,9 @@ tags: [Life and Physics]
 header:
   #image: "/images/julia2.gif"
   #image: "/images/backdrop7.png"
+  ##{:refdef: style="text-align: center;"}
+  #<img src="{{ site.url }}{{ site.baseurl }}/images/#physics_kamote.png" alt="Me in Borobudur Temple" class="center">
+  ##{: refdef}
   teaser: "/images/physics_kamote.png"
 excerpt: "Random insights from a physics kamote dreaming to be an astronaut."
 mathjax: true
@@ -16,7 +19,7 @@ mathjax: true
 Most of my new acquaintances when trying to guess my degree, think that I am from the arts and humanities department. I mean look at my aesthetic:
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/physics_kamote.png" alt="Me in Borobudur Temple" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gimp/gimp_logo.png” alt="gimp" class="center">
 {: refdef}
 
 my hair was always dyed, I talk like a politician, and I believe in fairies. Even my parents would never have had imagine me in a lab gown mixing glowing concoctions, wiring complex circuitry, aligning lasers and optical elements, or solving impossible equations in more than three dimensions.
@@ -98,9 +101,5 @@ Recognition of these structures is one goal of life. But recognition should not 
 </blockquote>
 
 As a final word, my college education didn't necessarily taught me physics. It however somewhat prepared me what to expect in life. It armed me with the skills not only to cope and survive but also make an impact in the society. I am still hoping to be that astronaut in the future, while in the process I need to do my fair share to make this world better for others.
-
-{:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/gimp/gimp_logo.png” alt="gimp" class="center">
-{: refdef}
 
 <div class="fb-comments" data-href="https://albertyumol.github.io/" data-numposts="5"></div>
