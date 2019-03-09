@@ -1,5 +1,5 @@
 ---
-title: "Selective Colorization in GIMP"
+title: "Selective Colorization in GIMP - A Tutorial"
 date: 2019-03-09
 tags: [Image Processing]
 header:
@@ -16,9 +16,9 @@ mathjax: true
 
 I was not born with a gift from the arts. I have no sense of visual coordination, color matching and I can't even draw passable stick figures. My right hand sketches are practically as bad as my left. I wear the cringiest selection of clothes and fashion. Having a physics background only worsened this 'skill' as I was trained to assume and over simplify 3D moving objects as 1D dots and particles with hasty and crooked arrows.
 
-But I am also a self-proclaimed hipster. Being a hipster for me means there is no escaping art. I always wanted to be good at something artistically because obviously art is fun and my life would be so much boring as it is already. What more without it. This is my one step of fulfilling my dream to become a future Van Gogh. And I'm not pertaining to our sanity.
+But I am also a self-proclaimed hipster. Being a hipster for me means there is no escaping art. I always wanted to be good at something artistically because obviously art is fun and my life would be so much boring as it is already. What more without it. This is my one step of fulfilling my dream of becoming a future Van Gogh. And I'm not pertaining to our sanity.
 
-Most of the time, I pester my photoshop savvy friends for the most menial photo editing tasks i.e. removing my ever present freckles and blemishes. Don't get me wrong. I am not vain at all. It's just that cameras don't hit my face at the right angle. Only till now have I built courage to explore image manipulation and finally do it myself. Surprisingly, it was not at all hard. I would not write a blog if it is so.
+Most of the time, I pester my photoshop savvy friends for the most menial photo editing tasks i.e. removing my ever present freckles and blemishes. Don't get me wrong. I am not vain at all. It's just that cameras don't hit my face at the right angles. Only till now have I built courage to explore image manipulation and finally do it myself. Surprisingly, it was not at all hard. I would not write a blog if it is so. Trust me.
 
 The first step if you want to be a 'manipulator' is finding a reliable medium (software) to manipulate with. If you have been following my previous posts, you would know that I abhor paid 'utility' software. I am not entirely for free platforms like the manipulative facebook.
 
