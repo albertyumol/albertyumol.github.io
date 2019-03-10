@@ -124,7 +124,37 @@ Filter spam. •Don’t trust unsolicited email. •Treat email attachments with
 **Home Wireless Setup 101**
 
 
+shodan - search engine for hackers
+google hack
+whois - look at a particular domain (site) and see available information about it
+competitive intelligence - gov sites of pending cases of companies
+job boards - to investigate aboit companies, what kind of software they are using
+alerts - set up visualping to have alerts from website you are tracking
+website mirroring - httrack - website copier
+email footprinting - the harvester
 
+tools
+maltego - like gephi but friendlier
+recon-ng - footprinting diff companies
+osrframework -
+
+
+footprinting - this is a technique for gathering info on computer systems and the entities they belong to
+-google hacking
+
+filetype: type - searches for only files of specific types
+-nikto - look vulnerabilities of certain websites
+-harvester
+
+nikto
+
+
+harvester - generalized public information
+
+TCP Header Flags
+Synchronize (SYN) - set during the initial communication establishment and indicates the negotiation of parameters and sequence numbers.
+Ackowledge (ACK) - set as an acknowledgement of a SYN flag.
+Reset (RST) - this flag forces the termination of communications in both directions.
 
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
