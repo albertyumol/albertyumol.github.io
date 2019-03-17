@@ -14,6 +14,8 @@ mathjax: true
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
+DISCLAIMER: The tone that I used for this article doesn't necessarily reflect my personal tone. It's just that I have been reading a lot of Jessica Zafra columns lately and may have acquired her angsty writing style. I am a nice person, reaally.
+
 I was not born with a gift from the arts. I have no sense of visual coordination, color matching and I can't even draw passable stick figures. My right hand sketches are practically as bad as my left. I wear the cringiest selection of clothes and fashion. Having a physics background only worsened this 'skill' as I was trained to assume and over simplify 3D moving objects as 1D dots and particles with hasty and crooked arrows.
 
 But I am also a self-proclaimed hipster. And being a hipster for me means there is no escaping art or at least pretend that I know something about it. I always wanted to be good at something artistically because obviously art is fun. This is my one step of fulfilling my dream of becoming a future Van Gogh. And I'm not pertaining to our sanity.
@@ -117,7 +119,7 @@ Here are other photos that I had fun to play with:
 <img src="{{ site.url }}{{ site.baseurl }}/images/gimp/anti_china_kids.JPG" alt="anti_china_kids" class="center">
 {: refdef}
 
-I have been reading a lot of Jessica Zafras latelyIt might sound that I am making a lot of fuzz with this simple photoshop trick. But hey it's fun! Go on, try it yourself and comment down your best images.
+But hey it's fun! Go on, try it yourself and comment down your best images.
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
