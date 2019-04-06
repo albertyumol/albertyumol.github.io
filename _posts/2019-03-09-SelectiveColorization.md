@@ -14,7 +14,7 @@ mathjax: true
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
-DISCLAIMER: The tone that I used for this article doesn't necessarily reflect my personal tone. It's just that I have been reading a lot of Jessica Zafra columns lately and may have acquired her angsty writing style. I am a nice person, reaally.
+DISCLAIMER: The tone that I used for this article doesn't necessarily reflect my personal tone. It's just that I have been reading a lot of Jessica Zafra columns lately and may have acquired her angsty writing style. I am a nice person, really.
 
 I was not born with a gift from the arts. I have no sense of visual coordination, color matching and I can't even draw passable stick figures. My right hand sketches are practically as bad as my left. I wear the cringiest selection of clothes and fashion. Having a physics background only worsened this 'skill' as I was trained to assume and over simplify 3D moving objects as 1D dots and particles with hasty and crooked arrows.
 
