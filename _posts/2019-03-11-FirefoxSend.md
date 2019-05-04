@@ -14,7 +14,7 @@ mathjax: true
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
-
+Have you heard about the latest Mozilla products? I'm sure am glad that I signed up for e-mail updates and weekly updates from the IRL (In Real Life Podcast). Mozilla does it again.
 
 
 
