@@ -168,8 +168,6 @@ I am looking forward to more applications of FFT to my research on signal analys
 I would give myself a rating of 12/10 for producing all the required image and for my effort of editing the main page of this blog. :)
 
 
-I would like to thank wix.com for their very nice website platform, Barts for his insights and very helpful blog and of course my seatmate Patrick and Robby for being patient, responsive and enthusiastic in answering my questions.
-
 **References:**
 
 [1] Wikipedia. Fourier Transform. Retrieved from: [https://en.wikipedia.org/wiki/Fourier_transform](https://en.wikipedia.org/wiki/Fourier_transform)

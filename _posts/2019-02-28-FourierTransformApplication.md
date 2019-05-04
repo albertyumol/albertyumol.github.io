@@ -219,9 +219,6 @@ You get to learn a lot things by doing, making mistakes, and learning from those
 I spent almost three weeks to finish the activity trying to learn the processes and debugging the code.
 I hope that I may be able to build upon my basic knowledge of FT filtering for my future scientific endeavor.
 
-I would give myself a rating of 12/10 for producing all the required images.
-I would like to thank wix.com for their very nice website platform.
-
 
 **Reference:**
 

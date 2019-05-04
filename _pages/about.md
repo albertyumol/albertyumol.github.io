@@ -24,6 +24,12 @@ DataFramed
 <small>Data Science is one of the fastest growing industries and has been called the « Sexiest job of the 21st Century ». But what exactly is Data Science? In the podcast by DataCamp, Hugo Bowne-Anderson approaches this question from the perspective of what problems Data Science tries to solve instead of what definition fits it best. From automated medical diagnosis and self-driving cars to recommendation systems and climate change, come on a journey with industry and academic experts to explore the inner workings of the industry that will color the 21st century.</small>
 </blockquote>
 
+IRL
+
+<blockquote>
+<small>Our online life is real life. We walk, talk, work, LOL and even love on the Internet – but we don’t always treat it like real life. Host Manoush Zomorodi explores this disconnect with stories from the wilds of the Web, and gets to the bottom of online issues that affect us all. Whether it’s privacy breaches, closed platforms, hacking, fake news, or cyber bullying, we the people have the power to change the course of the Internet, keeping it ethical, safe, weird, and wonderful for everyone. IRL is an original podcast from Firefox, the tech company that believes privacy isn’t a policy. It’s a right.</small>
+</blockquote>
+
 <h2>Books that made me</h2>
 
 The Drunkards Walk
