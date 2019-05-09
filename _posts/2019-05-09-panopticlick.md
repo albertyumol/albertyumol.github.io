@@ -56,6 +56,7 @@ What is browser or canvas fingerprinting?
 
 It is an online tracking tool from an image drawn so fast within the browser in a fraction of a second only visible to a requesting website. It is virtually invisible to you. To be continued...
 
+Use CanvasBlocker in FireFox.
 
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
