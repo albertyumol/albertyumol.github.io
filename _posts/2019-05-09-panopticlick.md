@@ -52,7 +52,7 @@ Here is the result for my browser:
 
 These results tell us that the my current browser configuration appears to be unique which means that if someone is to target me with an ad or a malware, it will be harder for them to do so and with more effort.
 
-What is browser fingerprinting?
+What is browser or canvas fingerprinting?
 
 
 
