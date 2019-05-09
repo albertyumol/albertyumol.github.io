@@ -54,6 +54,7 @@ These results tell us that the my current browser configuration appears to be un
 
 What is browser or canvas fingerprinting?
 
+It is an online tracking tool from an image drawn so fast within the browser in a fraction of a second only visible to a requesting website. It is virtually invisible to you. To be continued...
 
 
 
