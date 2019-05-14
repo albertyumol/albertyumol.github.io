@@ -3,7 +3,7 @@ title: "Being vigilant online with EFF's Panopticlick"
 date: 2019-05-09
 tags: [CyberSecurity]
 header:
-  image: "/images/julia2.gif"
+  image: "/images/albert.png"
   #image: "/images/backdrop7.png"
   #teaser: "/images/gimp/desaturation.JPG"
 excerpt: "Privacy matters."

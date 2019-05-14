@@ -5,7 +5,7 @@ tags: [Open Source]
 header:
   #image: "/images/julia2.gif"
   #image: "/images/backdrop7.png"
-  teaser: "/images/gimp/desaturation.JPG"
+  teaser: "/images/albert.png"
 excerpt: "Privacy matters."
 mathjax: true
 
