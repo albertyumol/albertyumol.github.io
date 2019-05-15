@@ -49,9 +49,8 @@ informal public transport alternatives especially the Jeepneys
 which has taken up the slack and provided for the sorely need
 services for our commuters.
 
-#YesToGenuineModernization
-
-#NoToJeepneyPhaseout
+**#YesToGenuineModernization** <br>
+**#NoToJeepneyPhaseout**
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
