@@ -5,7 +5,7 @@ tags: [Tech Activism]
 header:
   image: "/images/albert.png"
   #image: "/images/backdrop7.png"
-  #teaser: "/images/gimp/desaturation.JPG"
+  teaser: "/images/quirium.png"
 excerpt: "Since late December of 2018 to the first quarter of 2019,
 various websites of organizations in the Philippines composed
 of alternative media, human rights organizations, journalists
