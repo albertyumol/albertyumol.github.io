@@ -1,6 +1,6 @@
 ---
 title: "OPINION: Swedish Foundation Confirms Concentrated Tech Attach vs Peoples Organizations, Alternative Media"
-date: 2019-05-15
+date: 2019-03-30
 tags: [Tech Activism]
 header:
   image: "/images/albert.png"
