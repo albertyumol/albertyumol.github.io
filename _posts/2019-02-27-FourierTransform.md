@@ -13,10 +13,10 @@ mathjax: true
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
-Throughout my physics 'career', there is one mathematical trick that always haunts me. Be it signal analysis, optical systems, acoustics and of course image processing.
-You probably know what I mean if you've encountered these topics and a whole lot of applied math before. I am talking about the all famous and magnanimous Fourier Transform (FT). I still hear my professors saying that everything is just a signal that can be described as a series of sines and cosines.
+Throughout my physics 'career', there is one mathematical 'trick' that always haunts me. Be it signal analysis, optical systems, acoustics and of course image processing, this 'trick' is omnipresent.
+You probably know what I mean more or less if you have encountered these topics and have taken some applied mathematics courses before. I am talking about the all famous and magnanimous Fourier Transform (FT).
 
-Every scientist and engineer, before they get their degrees will have to master or be haunted by the FT.
+My ears still ring of the monotonous tone of my signal processing professor saying that "everything is just a signal that can be described as a series of sines and cosines". Every scientist and engineer, before they get their degrees will have to master FT one way or another.
 
 The Fourier Transform (FT) was formulated by Joseph Fourier in 1822 [1].
 He showed that a lot of mathematical functions could be represented as a sum of sines and cosines.
@@ -32,14 +32,11 @@ We can treat the FT process as analogous to a simple lens system.
 As light from an object passes through an aperture, an inverted image of the that object is formed in the image plane.
 The FT operation can be treated as the aperture of the lens system.
 
-In numerical calculations and simulations, the best way (from my experience) of implementing FT is the Fast Fourier Transform (FFT).
-This method of FT implementation was developed by Cooley and Tukey.
-Almost all programming languages have modules for implementing the mighty FFT.
+In numerical calculations and simulations, the easiest way (from my experience that is) of implementing FT is the Fast Fourier Transform (FFT) developed by Cooley and Tukey. Almost all high level programming languages have modules for implementing the mighty FFT.
 
 **Familiarization with discrete FFT**
 
-In this post, different apertures (or FT operations) will be compared based from the corresponding image produced.
-With the knowledge of how FT works, two operations, namely convolution and correlation will be implemented for 2D signals.
+In this post, we will compare different apertures (or FT operations) based from the corresponding image produced. We will also implement two operations in FFT, namely convolution and correlation for 2D signals.
 Lastly, an edge-detection technique would be implemented using the FT. Shown below is the summary of the results for different apertures.
 
 {:refdef: style="text-align: center;"}
@@ -165,8 +162,6 @@ Convolution and correlation was also successfully for 2D signals and lastly, an 
 
 I have gained a lot more insights on how useful FFT really is.
 I am looking forward to more applications of FFT to my research on signal analysis and processing.
-I would give myself a rating of 12/10 for producing all the required image and for my effort of editing the main page of this blog. :)
-
 
 **References:**
 

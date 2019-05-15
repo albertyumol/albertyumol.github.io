@@ -68,7 +68,7 @@ in the service of the Filipino people.
 *Program Coordinator* <br>
 Computer Professionals' Union
 
-See post in [Facebook](https://www.facebook.com/CPUnion/posts/10156675106722203).
+See post on [Facebook](https://www.facebook.com/CPUnion/posts/10156675106722203).
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>

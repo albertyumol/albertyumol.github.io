@@ -5,7 +5,7 @@ tags: [CyberSecurity]
 header:
   image: "/images/albert.png"
   #image: "/images/backdrop7.png"
-  #teaser: "/images/gimp/desaturation.JPG"
+  teaser: "/images/panopticlick/p_teaser.png"
 excerpt: "Privacy matters."
 mathjax: true
 
