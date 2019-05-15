@@ -61,6 +61,9 @@ political repression and CyberAttacks that stifle legitimate dissent.
 We urge our fellow techs to join us in advocating for technology
 in the service of the Filipino people.
 
+
+<br>
+<br>
 **Albert Yumol** <br>
 *Program Coordinator* <br>
 Computer Professionals' Union
