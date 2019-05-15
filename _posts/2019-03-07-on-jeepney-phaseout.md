@@ -1,7 +1,7 @@
 ---
 title: "On the Jeepney Modernization Program"
 date: 2019-03-07
-tags: [Issues and Society]
+tags: [Tech Activism]
 header:
   #image: "/images/julia2.gif"
   #image: "/images/backdrop7.png"
