@@ -90,6 +90,10 @@ Gorgeous isn't it? Amazingly, the x200 line offers one of the very first finger 
 <small>sudo apt install libpam-fprintd fprint-demo</small>
 </blockquote>
 
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/open_hardware/fingerprint.jpg" alt="Fingerprint" class="center">
+{: refdef}
+
 Booting takes at most 20 seconds. The experience felt amazing. My applications that took long in Mac to load, run in an instant. Thanks to the SSD and the power of Linux!​​
 
 In summary, I was able to find a laptop on budget! 'Maxed' the specs up still on a budget and run it with free and open source softwares. Looking forward, I hope to find a SOIC connector soon so I can Libreboot my laptop like the Unix God Richard Stallman.
