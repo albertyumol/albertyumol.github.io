@@ -6,7 +6,7 @@ header:
   #image: "/images/julia2.gif"
   #image: "/images/backdrop7.png"
   teaser: "/images/open_hardware/thinkpad.jpg"
-excerpt: "Random insights from a physics kamote dreaming to be an astronaut."
+excerpt: "It's time to find a new laptop. But I have one major problem. I'm broke. As an un-salaried NGO volunteer, I have very limited budget from my savings. At max, I can only spend around 10,000 pesos - all in. As a thrift-techie enthusiast that I am, I happen to be familiar with the nooks and crannies of the cheapest finds for most things that run with electricity. During my spare time, I just usually visit these thrift-tech stores just looking around, familiarizing myself with latest gadgets (not necessarily phones and laptops)."
 mathjax: true
 
 ---
