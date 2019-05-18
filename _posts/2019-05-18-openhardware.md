@@ -1,5 +1,5 @@
 ---
-title: "when you need a laptop but you broke: chronicles of a tech activist in 3rd world"
+title: "'open' laptop anyone?"
 date: 2019-05-18
 tags: [open Hardware]
 header:
