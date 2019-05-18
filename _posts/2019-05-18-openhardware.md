@@ -13,7 +13,7 @@ mathjax: true
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
-Welcome to my first entry on open electronics!It has been a while since my last blog entry. You know, as an activist, the political arena in the Philippines takes a lot on people. Who won't be stressed with Duterte's
+Welcome to my first entry on open electronics! It has been a while since my last blog entry. You know, as an activist, the political arena in the Philippines takes a lot on people. Who won't be stressed with Duterte's
 Drug war, threats of Martial Law, Jeepney phaseout, the unsolicited Build Build Build Program and its Tax Reform for Acceleration and Inclusion (TRAIn) Law? Let's take a short break from all of these commotions and discuss how I managed to switch to a new laptop on a budget.
 ​
 I have been a MacBook Pro user for about 5 years already. One of my weird practice is to christen my computers. I named my MacBook Merlin based from the fictional Welsh figure from the legend of King Arthur because I really like magick personalities. Merlin served me well since he's a Mac and I use computational power intensively, like running python codes for weeks and video editing on the side.
@@ -100,7 +100,7 @@ In summary, I was able to find a laptop on budget! 'Maxed' the specs up still on
 
 But so far, I am a very happy kid with this find. I have sought help from my geek friends to find an oracle that can lead me to a SOIC connector. With that I'm gonna name the laptop Endor, after the sorceress who King Saul of the bible sought to predict his fate with the war against Philistines.
 
-What do you think? Leave a comment below, and don't forget to say hi.
+What do you think? Leave a comment below, and don't forget to say 'hi'.
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
