@@ -14,11 +14,22 @@ mathjax: true
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
-DISCLAIMER: The tone that I used for this article doesn't necessarily reflect my personal tone. It's just that I have been reading a lot of Jessica Zafra columns lately and may have acquired her angsty writing style. I am a nice person, really.
+DISCLAIMER:
 
-I was not born with a gift from the arts. I have no sense of visual coordination, color matching and I can't even draw passable stick figures. My right hand sketches are practically as bad as my left. I wear the cringiest selection of clothes and fashion. Having a physics background only worsened this 'skill' as I was trained to assume and over simplify 3D moving objects as 1D dots and particles with hasty and crooked arrows.
+I have been reading a lot of Jessica Zafra's lately. I might have acquired her angsty writing style. Regardless, I am a nice person in general.
 
-But I am also a self-proclaimed hipster. And being a hipster for me means there is no escaping art or at least pretend that I know something about it. I always wanted to be good at something artistically because obviously art is fun. This is my one step of fulfilling my dream of becoming a future Van Gogh. And I'm not pertaining to our sanity.
+
+I was not born with artistically coordinated hands. I can't even draw passable stick figures. My right hand sketches are practically as bad as my left. Having a physics background only worsened this 'skill' as I was trained to assume and over simplify 3D moving objects as 1D dots and particles connected with hasty crooked arrows. I find art fun but I guess it's not mutual.
+
+However, in my reality, I am self-proclaimed hipster. And being a hipster means I need to try to be as artsy as possible. From dressing as outrageous as I can to dying my hair neon. Art has been where I vent most of my self expression.
+
+
+Anyway, makwento talaga ako at ang haba na nito.
+
+
+I find art fun
+
+I always wanted to be good at something artistically because obviously art is fun. This is my one step of fulfilling my dream of becoming a future Van Gogh. And I'm not pertaining to our sanity.
 
 Most of the time, I pester my photoshop savvy friends for the most menial photo editing tasks i.e. removing my ever present freckles and blemishes. Don't get me wrong. I am not vain at all. It's just that cameras don't hit my face at the right angles. Only till now have I built courage to explore image manipulation and finally do it myself. Surprisingly, it was not at all hard. I would not write a blog if it is so. Trust me.
 
