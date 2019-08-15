@@ -36,7 +36,7 @@ In numerical calculations and simulations, the easiest way (from my experience t
 
 **Familiarization with discrete FFT**
 
-In this post, we will compare different apertures (or FT operations) and explore on two FFT operations, namely convolution and correlation for 2D signals. At the end, we will apply these methods to an edge-detection algorithm. The i Shown below is the summary of the results for different apertures.
+In this post, we will compare different apertures (or FT operations) and explore on two FFT operations, namely convolution and correlation for 2D signals. At the end, we will apply these methods to an edge-detection algorithm. The image Shown below is the summary of the results for different apertures.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/FT/Image1_FT.png" alt="FT Operations across different apertures" class="center">
