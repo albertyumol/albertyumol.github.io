@@ -1,88 +1,25 @@
 ---
-title: "So, I was invited to talk about my being against National ID...(developing)"
-date: 2019-05-24
-tags: [Privacy Rights]
+title: "Predicting Social Unrest and Rallies in the Philippines using Machine Learning"
+date: 2019-09-25
+tags: [Machine Learning, Data Science]
 header:
   #image: "/images/julia2.gif"
-  image: "/images/npc/digital.PNG"
-  teaser: "/images/npc/digital.PNG"
-excerpt: "Sentiments from my debate with the proponents (PhilSys) of National ID in the Philippines in the second National Privacy Commission Conference."
+  image: "/images/rally/predicting_rallies.PNG"
+  teaser: "/images/rally/predicting_rallies.PNG"
+excerpt: "Developed a model to predict future events of big rallies and protest in the Philippines by correlating it to online dissent in News, Facebook and Twitter using a composite Hidden Markov Model."
 mathjax: true
 
 ---
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
-Let's stop for a moment and zoom out from the nitty gritties of our daily grind and hustle. Often, we are caught up with the overwhelming clutter of reality becoming robotic in the way we do things. We constantly search for meaning but end up being more lost and puzzled. The surge of information overwhelm our senses at a massive rate. Why are we in constant search of meaning and for what purpose? We tend to forget how to live and why we live. Information is indeed meaningless without context.
-
-I want to live an extra-ordinary life. No 8-5 work, no corporate ladder to climb. Throughout my pre-adult life, I have been very vocal and active about the things I believe in. I have established to myself that if I want a better world for me and for others, I need to be physically active in changing it. Not just making it a dream but putting it as priority and a reason for living. And **not** doing it alone. I am not certainly a *messiah* brought upon the world from evil and corruption. It should be done collectively with a continuous process of learning, fine-tuning, adapting, developing and ultimately evolving with communities and advocacy oriented organizations.
-
-These next few paragraphs, however, are not about existentialism. I just want to share insights of how I debated with the proponents of the National ID System in the Philippines which has already been signed by President Rodrigo Duterte under the Philippine Identification System Act (Republic Act No. 11055) an act that will establish a single national identification system referred to as the "Philippine Identification System" or the "PhilSys" for all citizens and resident aliens of the Republic of the Philippines.
-
-I was invited by the National Privacy Commission in their conference as a reactor for the said forum.
-
-
-
- ... I hope these insights can contribute somehow
-
-we forget
-
-
-
-Of particular is my advocacy on privacy and security consciousness in our analog and digital realities. In fact in University, my research application is in cryptography speciifically the generation of true random numbers from physical sources. I have also been attending conferences (shoot out to MozFest 2018 who has inspired me to keep fighting for digital rights and the love for open web) and joining mass organizations like the Computer Professionals' Union in the Philippines whose mission is to change the orientation of technology for the benefit of the people.
-
-This 2019, the National Privacy Commission (NPC) held its second conference to celebrate [Privacy Awareness Week](insert link) and discuss about current issues in protecting the Filipino's right to data privacy and accountability, compliance and ethics in a data-driven Philippines.
-
-I was invited as a resource speaker representing the Computer Professionals' Union and to debate against the President of PhilSys, the subsidiary of the Philippine Statistics Authority (PSA) for the implementation of the first National ID in the country with the topic of _______________________________ Boon or Bane?
-
-Ms. Edith Orcilla of the PSA started the discussion of why it is timely to have the National ID implemented (the law was already [insert name of Bill here]). According to her we are only one of the few countries who doest implement the national id system. She said that we need to keep up for the sake of globalization. She said that the ID will be given free to the citizens. She said that it will protect the citizens against threat to national security. She discussed the convenience of consolidating data records into one system and how it can reduce fraud. She discussed all the data that will be collected (which is overkill, I will elaborate this later). She discussed strategies to reach out the far flung communities and indigenous population of the country. She promised that they will work over night and even on weekends. She discussed also some of the problems that may occur during and after the implementation.
-
-Alarmingly she said that anyone who is against National ID is already suspicious as this action according to her justifies a hidden motive to disrupt society and national security (this was also pronounced by President Duterte during a press briefing). This statement made me teary while I'm in my seat waiting for my turn.
-
-I went on to start my argument calmly. I told a story that the first time I got my ID was during my Kindergaten. I had vivid memories of it because I found it hard to create my very first signature.
-
-Here are my points:
-
-[1] Yes it is true that the Philippines is one of the few countries who doesn't have a national id together with other first world countries like the USA, United Kingdom and countries in the EU. People of these countries are at the forefront of research in privacy and security in the digital age. I cite the GPDR in Europe. These countries see the backlash of implementing such system on how it can negatively affect its citizens.
-
-[2] This is an issue of convenience VS security. The current ID system of the philippines is decentralised. Different agencies have their own IDs and data are stored locally. As a complex system and information security researcher, I can comment that centralizing these valuable information without an established and well reviewed law creates vulnerabilities in it self. This centralized information makes the perfect ingredient for an exploit. Ironically, history tells us that the Philippines is not the most cybersecure place to begin with. 10 government websites are hacked per month. Let that sink in.
-
-[3] It is not free. It is actually very expensive. We don't even National budget to fund. According to Ms. Orcilla, we will borrow money from Asian Development Bank and the World Bank. The people people will shoulder the heavy cost in tax and will incur to our already bloated international debt. Sadly next generations of Filipinos will mostly inherit debt. It builds on surveillance capitalism where providers will often over price at the expense of the people.
-
-[4] The problem with ethnic discrimination.
-
-[5]
-
-[6] Overkill of information.
-What is the definition of identity?
-
-The Philippines is marred by a myriad of problems. Poverty and social inequality are rampant. The government is orchestrating state neglect to basic social services. Basic needs such as health, education, water, electricity are all commercialized and sold to private entities that the government does not have the guts to regulate. The government is established to protect and serve the people not the oligarchs, the landlords, the bureaucrat capitalist and big foreign investors.
-
-This national id is just a clutter
-
-
-SHE TOLD THE AUDIENCE THAT THE SYSTEM IS 100% secure. Not today satan.
-What is the motive of the National ID? What is self serving and self interest?
-
-In this day and age, we need to be more human more than ever. The challenges that we face are truly becoming n-dimensional and multi-faceted.
+It's been a long time. Insert more keme here.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/npc/backdrop.jpg" alt="Gilmore" class="center">
 {: refdef}
 
 
-at privacy
-
-I was invited as a resource speaker and reactor in the recently held National Privacy Commission Conference representing the Computer Professionals' Union. I was to react against the main proponents of the National ID, PhilSys and National
-
-outline
-NPC conference week
-i talked
-my Sentiments
-the swags are great but more than the grandeur of the event
-mozilla inspired me to do so
-i hope that people will be more open
-how has mozilla transformed my work and collaboration
 
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
