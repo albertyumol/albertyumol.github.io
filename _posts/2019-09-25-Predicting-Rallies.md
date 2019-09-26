@@ -4,8 +4,8 @@ date: 2019-09-25
 tags: [Machine Learning, Data Science]
 header:
   #image: "/images/julia2.gif"
-  image: "/images/rally/predicting_rallies.PNG"
-  teaser: "/images/rally/predicting_rallies.PNG"
+  image: "/images/rally/predicting_rallies.png"
+  teaser: "/images/rally/predicting_rallies.png"
 excerpt: "Developed a model to predict future events of big rallies and protest in the Philippines by correlating it to online dissent in News, Facebook and Twitter using a composite Hidden Markov Model."
 mathjax: true
 
