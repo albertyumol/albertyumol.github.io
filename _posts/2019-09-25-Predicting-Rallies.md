@@ -13,7 +13,9 @@ mathjax: true
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
-It's been a long time. Insert more keme here.
+It's been a long time. Insert more keme here. So I hope this gets posted properly on Github I really do hope.
+
+Oh my God. Eskwelabs is so cool.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/npc/backdrop.jpg" alt="Gilmore" class="center">
