@@ -17,8 +17,13 @@ It's been a long time. Insert more keme here. So I hope this gets posted properl
 
 Oh my God. Eskwelabs is so cool.
 
+
+
+
+
+
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/npc/backdrop.jpg" alt="Gilmore" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/social_movement1.gif" alt="Gilmore" class="center">
 {: refdef}
 
 
