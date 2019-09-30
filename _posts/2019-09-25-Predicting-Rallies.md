@@ -25,7 +25,7 @@ I am used to being red tagged. But I need to stay firm with my principles and ad
 
 In particular, when I was a student activist, my advocacy is on accessibility to education and ultimately push for free education for all. I believe that education is a right and not a previledge.
 
-In my days in the University, I joined various demonstrations and rallies. As a science major, we've used math to calculate the feasibilty of free education given the current budgeting system in the Philippines.
+In my days in the University, I joined various demonstrations and rallies. As a science major, we've used math to calculate the feasibility of free education given the current budgeting system in the Philippines.
 
 Eventually, through the pressure of rallies and lobbying in congress, in 2017 the Law for Free Education is passed. Now, students from various walks of life can enjoy free education in all state colleges and universities.
 
@@ -45,7 +45,7 @@ In my years as an activist, I learned that to build democracy, we need to put it
 
 In our present day, there are different forms of activism. Of particular interest for me are the so-called keyboard activists. They are the ones who initiate twitter rallies and sharing 'woke memes'.
 
-What I am interested is when do these activist flood the streets? When will their digital words turn into analog/physical actions?
+What I am interested is when do these activist flood the streets? When will their digital words turn into analog/physical/real-life actions?
 
 To do that I need a lot of data. Luckily, the GDELT project provides one. GDELT stands for
 
@@ -61,6 +61,25 @@ GDELT monitors print, broadcast, and web news media in over 100 languages from a
 I used Google's Big Query to get the event logs of all news in the Philippines since year 2000 (here is the script I used):
 
 <script src="https://gist.github.com/albertyumol/3715a1cb2c5efb96269b05ac4dce0d02.js"></script>
+
+The steps that I will follow is this:
+1. Ground Set Extraction
+2. Burstiness Modelling
+3. Hidden Markov Modelling
+4. Naive Bayes Decision
+
+For the ground set I used GDLET. Each record has 61 fields, pertaining to a specific event in CAMEO format (What is CAMEO?).
+
+Conflict and Mediation Event Observations (CAMEO) is a framework for coding event data (typically used for events that merit news coverage, and generally applied to the study of political news and violence).[1][2] It is a more recent alternative to the WEIS coding system developed by Charles A. McClelland and the Conflict and Peace Data Bank (COPDAB) coding system developed by Edward Azar.
+
+I only got these fields:
+
+SQLDATE, MonthYear, EventRootCode, GoldsteinScale, NumMentions, AvgTone, ActionGeo_CountryCode, ActionGeo_Lat, ActionGeo_Long
+
+which I used to plot the Philippine Map gif above.
+
+The
+
 
 
 I will be posting my code in Github soon (standby).
@@ -79,17 +98,6 @@ References:
 [https://en.wikipedia.org/wiki/Global_Database_of_Events,_Language,_and_Tone](https://en.wikipedia.org/wiki/Global_Database_of_Events,_Language,_and_Tone)
 
 [2] The GDLET Project. Retrieved from: [https://www.gdeltproject.org/](https://www.gdeltproject.org/)
-
-
-[1] M. Soriano, “Length and Area estimation in images,” Applied Physics 186 Activity Hand-outs, 2014.
-
-[2] Scilab Image Processing. Retrieved from:
-[http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html)
-
-[4] Wikipedia. Prewitt Operator. Retrieved from:
-[http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](https://en.wikipedia.org/wiki/Prewitt_operator)
-
-[5] Barteezy's Applied Physics Experience. Retrived from: [http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](https://barteezy.wordpress.com/2015/09/06/activity-4-length-and-area-estimation-in-images/)
 
 
 
