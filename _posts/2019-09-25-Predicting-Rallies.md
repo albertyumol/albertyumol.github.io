@@ -85,10 +85,44 @@ AvgTone is the average tone of all documents containing one or more mentions of 
 For the ground set extraction, I filtered out only those who have significant number of mentions across the years. I started with 2000 and aggregated on a daily basis. Plotting the time series,
 
 
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/unnormalized.png" alt="Gilmore" class="center">
+{: refdef}
+
+we see that there is a heterogeneous upward trend in the event mention . To remove this, I have implemented a 90 day moving average to normalize the signal using this equation:
+
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/eq3.png" alt="Gilmore" class="center">
+{: refdef}
+
+To set the baseline value of number of significant event values, we define that the average mention count on each day is given by
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/eq4.png" alt="Gilmore" class="center">
+{: refdef}
+
+And finally to smoothen out the data, we use a seven day moving average given by:
+
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/eq5.png" alt="Gilmore" class="center">
+{: refdef}
+
+where $$/theta$$ is the upper bound of the 95% confidence interval of the time series. It's a lot of math, I know but we aren't yet discussing the model yet which is more intense (and fun!).
 
 
 
-we see that there is a heterogeneous upward trend in the event mention . To remove this
+
+
+
+
+
+
+
+
+
+
 
 
 
