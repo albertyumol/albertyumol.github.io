@@ -49,12 +49,22 @@ What I am interested is when do these activist flood the streets? When will thei
 
 To do that I need a lot of data. Luckily, the GDELT project provides one. GDELT stands for
 
+
+<blockquote>
+<small>Global Database of Events, Language, and Tone (GDELT), created by Kalev Leetaru of Yahoo! and Georgetown University, along with Philip Schrodt and others, describes itself as "an initiative to construct a catalog of human societal-scale behavior and beliefs across all countries of the world, connecting every person, organization, location, count, theme, news source, and event across the planet into a single massive network that captures what's happening around the world, what its context is and who's involved, and how the world is feeling about it, every single day." [1].</small>
+</blockquote>
+
+
+
+The GDELT Project is a realtime network diagram and database of global human society for open research
+
+
+
+
+
 I will be posting my code in Github soon (standby).
 
 
-It's been a long time. Insert more keme here. So I hope this gets posted properly on Github I really do hope.
-
-Oh my God. Eskwelabs is so cool.
 
 
 
@@ -62,7 +72,20 @@ Oh my God. Eskwelabs is so cool.
 
 
 
+References:
 
+[1] Wikipedia. Global Database of Events, Language, and Tone. Retrieved from:
+[https://en.wikipedia.org/wiki/Global_Database_of_Events,_Language,_and_Tone](https://en.wikipedia.org/wiki/Global_Database_of_Events,_Language,_and_Tone)
+
+[1] M. Soriano, “Length and Area estimation in images,” Applied Physics 186 Activity Hand-outs, 2014.
+
+[2] Scilab Image Processing. Retrieved from:
+[http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html)
+
+[4] Wikipedia. Prewitt Operator. Retrieved from:
+[http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](https://en.wikipedia.org/wiki/Prewitt_operator)
+
+[5] Barteezy's Applied Physics Experience. Retrived from: [http://siptoolbox.sourceforge.net/doc/sip-0.7.0-reference/edge.html](https://barteezy.wordpress.com/2015/09/06/activity-4-length-and-area-estimation-in-images/)
 
 
 
