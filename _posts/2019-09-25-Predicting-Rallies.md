@@ -13,7 +13,7 @@ mathjax: true
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
-Have you heard about Greta Thunberg, the young Swedish activist visibly fighting for climate justice across global summits and platforms?
+Have you heard about Greta Thunberg, the young Swedish activist visibly fighting for climate justice across global summits and platforms? Most of us are attracted to her sense of purpose and advocacy.
 
 **insert gif of greta with source of course**
 
@@ -23,7 +23,7 @@ I am an activist as well. To be honest, I think being an activist in the Philipp
 
 I am used to being red tagged. But I need to stay firm with my principles and advocacies to make impact.
 
-In particular, when I was a student activist, my advocacy is on accessibility to education and ultimately push for free education for all. I believe that education is a right and not a previledge.
+In particular, when I was a student activist, my advocacy is on accessibility to education and ultimately push for free education for all. I believe that education is a right and not a privilege.
 
 In my days in the University, I joined various demonstrations and rallies. As a science major, we've used math to calculate the feasibility of free education given the current budgeting system in the Philippines.
 
@@ -111,11 +111,35 @@ And finally to smoothen out the data, we use a seven day moving average given by
 
 where $$/theta$$ is the upper bound of the 95% confidence interval of the time series. It's a lot of math, I know but we aren't yet discussing the model yet which is more intense (and fun!).
 
+Upon normalization, here is the result:
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/normalized.png" alt="Gilmore" class="center">
+{: refdef}
+
+All of the points above the red line are days with significant rallies.
+
+I used this points as labels to reduce my problem as supervised binary classification. Those days with significant count of rally mentions are labeled as 1 while the reverse is tagged as 0.
+
+I will discuss the details of the modified hidden markov model that I implemented in another blog. Basically I pick Hidden Markov Model because it accounts time series variation and coupled it with Burstiness Modelling to properly account for the probabilities and duration of events.
+
+Research in social movements point out there are events that before a big rally occur. In this study, I hypothesize that these event progression is given by this ladder:
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/ladder.png" alt="Gilmore" class="center">
+{: refdef}
+
+The purpose of using hidden markov model is to approximate the likelihood of an event accuring given the probabilitiesof the progression of the states. This can be visualized by this diagram:
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/states.gif" alt="Gilmore" class="center">
+{: refdef}
 
 
 
 
 
+Recommendations: current research point out that social embededness, bla blah
 
 
 
