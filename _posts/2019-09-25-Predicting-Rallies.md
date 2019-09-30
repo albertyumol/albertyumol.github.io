@@ -78,16 +78,17 @@ SQLDATE, MonthYear, EventRootCode, GoldsteinScale, NumMentions, AvgTone, ActionG
 
 which I used to plot the Philippine Map gif above.
 
-The
+To get the ground truth, event code number 14 signifies events with mentions of PROTEST. GoldsteinScale is a numerical score ranging from -10 to 10 which signifies the theoretical potential impact that type of event will have on the stability of the country. NumMentions is the total number of mentions of this event across all source documents, which can be used as a method of assessing the importance of an event: the more the discussion of the event is, the more likely it is to be significant.
+
+AvgTone is the average tone of all documents containing one or more mentions of this event ranging from -100 (extremely negative) to 100 (extremely positive). Action_Geo_Country code is the location of the event, ActionGeo_Lat and ActionGeo_Long are the centroid lat long of the landmark for mapping.
+
+For the ground set extraction, I filtered out only those who have significant number of mentions across the years. I started with 2000 and aggregated on a daily basis. Plotting the time series,
 
 
 
-I will be posting my code in Github soon (standby).
 
 
-
-
-
+we see that there is a heterogeneous upward trend in the event mention . To remove this
 
 
 
