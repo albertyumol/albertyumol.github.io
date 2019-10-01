@@ -124,13 +124,13 @@ To set the baseline value of number of significant event values, we define that 
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/eq4.png" alt="Equation 2." class="center">
 {: refdef}
 
-and to smoothen out the data, we use a seven day moving average:
+and to smoothen out the data, we use a **seven day** moving average:
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/eq5.png" alt="Equation 3." class="center">
 {: refdef}
 
-where $$\theta$$ is the upper bound of the 95% confidence interval of the time series. It's a lot of math, I know (same girl I can relate) but we aren't yet discussing the model yet which is more intense (and fun!).
+where $$\theta$$ is the upper bound of the 95% confidence interval of the time series. It's a lot of math, I know (same girl I can relate, also took me a while to understand this) but we aren't yet discussing the model which is more intense (and fun!).
 
 Upon normalization, here is the result:
 
@@ -140,40 +140,39 @@ Upon normalization, here is the result:
 
 All of the points above the red line are days with significant rallies.
 
-I used this points as labels to reduce my problem as supervised binary classification. Those days with significant count of rally mentions are labeled as 1 while the reverse is tagged as 0.
+I used this points as labels and reduce my problem as a supervised binary classification. Those days with significant count of rally mentions are labeled as 1 while those with none are tagged as 0.
 
-I will discuss the details of the modified hidden markov model that I implemented in another blog. Basically I pick Hidden Markov Model because it accounts time series variation and coupled it with Burstiness Modelling to properly account for the probabilities and duration of events.
+I will discuss the details of the coupled Burstiness and Hidden Markov Model (HMM) that I implemented in another blog post. I chose HMM because it accounts for time series variation as sequence learning and coupled it with Burstiness Modelling to properly account for the probabilities and duration of events (also called as states).
 
-Research in social movements point out there are events that before a big rally occur. In this study, I hypothesize that these event progression is given by this ladder:
+Research in social movements point out there are mini-events that lead to the occurrence of a big rally. In this study, I hypothesize that this event progression is given by this ladder:
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/ladder.png" alt="Gilmore" class="center">
 {: refdef}
 
-The purpose of using hidden markov model is to approximate the likelihood of an event accuring given the probabilitiesof the progression of the states. This can be visualized by this diagram:
+HMM is a strong candidate for this problem because it can approximate the likelihood of an event occurring given the probabilities of the progression of the states. This statement can be visualized by this diagram:
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/states.gif" alt="Gilmore" class="center">
 {: refdef}
 
-
-The hidden markov model is used to estimate parameters for the model. For this, I am htraining two models. One is trained to classify if a date range contains a rally and the other model is trained to identity non-rally days as exemplified by this diagram:
+HMM is used to estimate the parameters for the model. To increase the accuracy of the solution, I trained two models. One is trained to classify if a date range contains a rally and the other model is trained to identity non-rally days as exemplified by this diagram:
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/model.png" alt="Gilmore" class="center">
 {: refdef}
 
-I used 2000-2015 as my training set and 2016-2019 as my test set. I used Bayes log likelihood decision to decide which model is more accurate in a given date prediction range.
+I used 2000-2015 as my training set and 2016-2019 as my test set. I implemented a Bayes log likelihood decision mechanism to decide which model is more accurate in a given date prediction range.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/predict.png" alt="Gilmore" class="center">
 {: refdef}
 
-For a baseline comparison of the model, since I reduced the problem into a supervised binary classification, I used Logistic regression and since it is also used in a lot of machine learning methods in the event prediction and forecasting literature. For each day, I summed over all event mentions with rootcode 14 and is it as an identifier of the event.
+For a baseline comparison of the model, since I reduced the problem into a supervised binary classification, I used *Logistic Regression*. It is also used in a lot of machine learning methods in the event prediction and forecasting literature. For each day, I summed over all event mentions with event root code 14 and use it as an indicator of big rallies.
 
 **Results**
 
-The ROC curve of the models compared to a baseline is shown below:
+The ROC curve of the model compared to the *Logistic Regression* baseline is shown below:
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/resulta.png" alt="Gilmore" class="center">
@@ -185,7 +184,9 @@ For the accuracy and precision,
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/accuracy.png" alt="Gilmore" class="center">
 {: refdef}
 
-As we can see, the modified Hidden Markov Model performed better than logistic regression. I used a time window of seven days. This mean that this particular model will be able to predict if a big rally within the next 7 days.
+As we can see, the modified Hidden Markov Model performed better than Logistic Regression. Using a time window of seven days means that this particular model implementation will be able to predict if a big rally will happen within the next 7 days.
+
+**Conclusion**
 
 The results can be useful depending which side you are on. I you are an activist like me who organize people to rally for certain cause and advocacy, you would know if there is enough online clamor before a rally occur.
 
