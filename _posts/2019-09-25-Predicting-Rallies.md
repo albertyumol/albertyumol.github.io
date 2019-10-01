@@ -3,7 +3,6 @@ title: "Activism via Machine Learning: Modified Hidden Markov Model to forecast 
 date: 2019-09-25
 tags: [Machine Learning, Data Science]
 header:
-  #image: "/images/julia2.gif"
   image: "/images/rally/predicting_rallies.png"
   teaser: "/images/rally/predicting_rallies.png"
 excerpt: "Social movements exhibit a complex system of social human behavior. These events demonstrate the capacity of people and their collective action to influence political decisions and public policies. This study delves into developing a model to predict future events of big rallies and protest in the Philippines by correlating it to online dissent and mentions in news outlets and social media using a coupled Burstiness and Hidden Markov Model."
@@ -65,13 +64,13 @@ I used Google's Big Query to get the event logs of all news in the Philippines s
 
 <script src="https://gist.github.com/albertyumol/3715a1cb2c5efb96269b05ac4dce0d02.js"></script>
 
-The steps that I will follow is this:
+These are the steps that I followed:
 
 <blockquote>
 <small>
-1. Ground Set Extraction
-2. Burstiness Modelling
-3. Hidden Markov Modelling
+1. Ground Set Extraction \n
+2. Burstiness Modelling \n
+3. Hidden Markov Modelling \n
 4. Naive Bayes Decision
 </small>
 </blockquote>
