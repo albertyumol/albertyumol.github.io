@@ -199,7 +199,7 @@ If you are a normal citizen, you decide whether the issues being talked about sp
 
 **Recommendations**
 
-Current research point out that social embeddedness, emotions, grievance and identity [6]. This can be verified using NLP and feature importance from the news data set used above and can be done as an extension of this project.
+Current research point out that social embeddedness, emotions, grievance and identity [6] are the most important features that influence protest activities. This can be verified using NLP and feature importance from the news data set used above and can be done as an extension of this project.
 
 **Takeaways**
 
