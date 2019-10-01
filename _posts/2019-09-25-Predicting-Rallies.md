@@ -194,6 +194,10 @@ I will continue to join rallies and stick to my principles as I believe that onl
 https://tenor.com/view/well-be-watching-you-greta-thunberg-gif-15167876
 
 
+Credits:
+
+I want to acknowledge [Esklwelabs](https://www.eskwelabs.com/) in pursuit of this project. Also shout out to Data Science Fellow Cohort II. You are the best study buddies! I know you guys will be actuators in your future endeavors. Lots of love :)
+
 References:
 
 [1] Wikipedia. Global Database of Events, Language, and Tone. Retrieved from:
