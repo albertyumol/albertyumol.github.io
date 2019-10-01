@@ -13,6 +13,8 @@ mathjax: true
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
+**Introduction**
+
 Have you heard about Greta Thunberg, the young Swedish activist visibly fighting for climate justice across global summits and platforms? Most of us are attracted to her sense of purpose and advocacy.
 
 **insert gif of greta with source of course**
@@ -133,6 +135,19 @@ The purpose of using hidden markov model is to approximate the likelihood of an 
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/states.gif" alt="Gilmore" class="center">
+{: refdef}
+
+
+The hidden markov model is used to estimate parameters for the model. For this, I am htraining two models. One is trained to classify if a date range contains a rally and the other model is trained to identity non-rally days as exemplified by this diagram:
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/model.png" alt="Gilmore" class="center">
+{: refdef}
+
+I used 2000-2015 as my training set and 2016-2019 as my test set. I used Bayes log likelihood decision to decide which model is more accurate in a given date prediction range.
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/predict.png" alt="Gilmore" class="center">
 {: refdef}
 
 
