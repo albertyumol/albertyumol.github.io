@@ -188,17 +188,21 @@ As we can see, the modified Hidden Markov Model performed better than Logistic R
 
 **Conclusion**
 
-The results can be useful depending which side you are on. I you are an activist like me who organize people to rally for certain cause and advocacy, you would know if there is enough online clamor before a rally occur.
+The results can be useful depending which side you are on. If you are an activist like me who organize people to rally for certain cause and advocacy, you would know if there is enough online clamor before a rally occur.
 
-But if you a member of the reactionary state force, you will certainly is this prediction to suppress social movements in favor of those already in power.
+If you a member of the reactionary state force, you will most likely use this prediction to suppress social movements in favor of the status quo.
 
-My bias is that I am an activist. I believe that activism is a way of life. And we are all activists in our own little ways. Sometimes we just need to be reminder why we do the things we do and ultimately for whom do we do it.
+**Recommendations**
 
 Recommendations: Current research point out that social embeddedness, emotions, grievance and identity [6]. This can be verified using NLP and feature importance from the news data set used above and can be done as an extension of this project.
 
-See you in the future in future rallies and protest actions.
+**Takeaways**
 
-I will continue to join rallies and stick to my principles as I believe that only collective action can we truly achive social change. As for the corrupt politicians in the Philippines,
+My bias is that I am an activist. I believe that activism is a way of life. And we are all activists in our own little ways. Sometimes we just need to be reminder why we do the things we do and ultimately *for whom* do we do it.
+
+See you in the future and hopefully in future rallies and protest actions.
+
+I will continue to join rallies and stick to my principles as I believe that only with collective action can we truly achieve genuine social change. As for the corrupt politicians in the Philippines,
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/greta2.gif" alt="Gilmore" class="center">
@@ -208,13 +212,16 @@ https://tenor.com/view/well-be-watching-you-greta-thunberg-gif-15167876
 
 #BeLikeGreta
 
-Credits:
+
+
+
+**Credits**
 
 I want to acknowledge [Esklwelabs](https://www.eskwelabs.com/) in pursuit of this project. Also shout out to Data Science Fellow Cohort II. You are the best study buddies! I know you guys will be actuators in your future endeavors. Sending lots of love and virtual hugs :)
 
-References:
+**References**
 
-[1] Gfycal. Donald Trump and Greta Thunberg. Retrieved from :
+[1] Gfycal. Donald Trump and Greta Thunberg 1. Retrieved from :
 [https://gfycat.com/fancycoarsekrill-donald-trump](https://gfycat.com/fancycoarsekrill-donald-trump)
 
 [2] Wikipedia. Global Database of Events, Language, and Tone. Retrieved from:
@@ -228,7 +235,8 @@ References:
 
 [6] EPJ Data Science. Activism via attention: interpretable spatiotemporal learning to forecast protest activities. Retrieved from: [https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-019-0183-y](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-019-0183-y)
 
-
+[1] Gfycal. Donald Trump and Greta Thunberg 2. Retrieved from :
+[https://giphy.com/gifs/climate-crisis-greta-thunberg-un-action-summit-Qa4abAMDoyUtuICjLZ](https://giphy.com/gifs/climate-crisis-greta-thunberg-un-action-summit-Qa4abAMDoyUtuICjLZ)
 
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
