@@ -1,5 +1,5 @@
 ---
-title: "DRAFT: Activism via Machine Learning: Modified Hidden Markov Model to forecast protest activities"
+title: "Activism via Machine Learning: Modified Hidden Markov Model to forecast protest activities"
 date: 2019-09-25
 tags: [Machine Learning, Data Science]
 header:
