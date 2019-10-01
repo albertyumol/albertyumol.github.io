@@ -13,19 +13,17 @@ mathjax: true
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
-**Introduction**
-
-Have you heard about Greta Thunberg? That *'...very happy young girl looking forward to a bright and wonderful future'.* She is all over the news and my twtter feed recently. Most of those in my digital circle post a lot of her *gifs* as she voice out her advocacies on the main stage of international climate summits. A lot seems to be attracted by her sense of purpose and 'woke-ness' at a young age.
+Have you heard about Greta Thunberg? That *'...very happy young girl looking forward to a bright and wonderful future'.* She is all over the news and my twitter feed recently. Most of those in my digital circle post a lot of her *gifs* as she voice out her advocacies on the main stage of international climate summits. A lot seems to be attracted by her sense of purpose and 'woke-ness' at a young age.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/greta1.gif" alt="Be like Greta." class="center">
 {: refdef}
 
-There seems to be a lot of online clamor showing support for her activism. We are always drawn to hero figures like her. But heroism sometimes can be ordinary as well.
+There seems to be a lot of online clamor showing support for her activism. We tend to be drawn to hero figures like her and the extra-ordinariness of her cause. But sometimes, actions need not to be very extra-ordinary to be heroic.
 
 Let me ask you if you yourself have met an activist like her? It seems unlikely when you live in the Philippines.
 
-I myself is an activist like Greta. I may not be as young as her but I am just as pretty :). To be honest, I think being an activist in the Philippines (regardless of advocacy e.g. environment, basic social services, human rights, etc.) is much harder and dangerous. If you declare yourself as an activist and go out into the open, often than not you will be tagged as a member of the New Peoples Army, a communist, or even a radical terrorist. Being an activist in the Philippines also means acceptance of the perils and circumstances that comes with it.
+I myself is an activist like Greta. I may not be as young as her but I am just as pretty :). To be honest, I think being an activist in the Philippines (regardless of advocacy e.g. environment, basic social services, human rights, etc.) is much harder and dangerous. If you declare yourself as an activist and go out into the open, often than not you will be tagged as a member of the New Peoples Army, a communist, or even a radical terrorist. Being an activist in the Philippines means acceptance of the perils and circumstances that comes with it.
 
 If you are active on Facebook, chance is high that you might have encountered news about atrocities against activists (mainstream media don't usually report it). Just recently, news broke about forest rangers and protectors in Palawan being killed by paramilitary men and illegal loggers. I think hard about this. How can we tell the future generations to love and protect nature when people who do that suffer and are killed?
 
@@ -51,7 +49,7 @@ Much of our time are spent online, thus emerges a new form of activism. They are
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/twitter.jpg" alt="Twitter rallies." class="center">
 {: refdef}
 
-For these particular project, what I am interested is when do these activist flood the streets? When will their digital words turn into real-life actions?
+For this particular project, what I am interested is *when do these activist flood the streets? When will their digital words turn into real-life actions?*
 
 **Data Wrangling**
 
@@ -194,7 +192,7 @@ If you a member of the reactionary state force, you will most likely use this pr
 
 **Recommendations**
 
-Recommendations: Current research point out that social embeddedness, emotions, grievance and identity [6]. This can be verified using NLP and feature importance from the news data set used above and can be done as an extension of this project.
+Current research point out that social embeddedness, emotions, grievance and identity [6]. This can be verified using NLP and feature importance from the news data set used above and can be done as an extension of this project.
 
 **Takeaways**
 
