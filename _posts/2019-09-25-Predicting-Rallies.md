@@ -51,15 +51,14 @@ Much of our time are spent online, thus emerges a new form of activism. They are
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/twitter.jpg" alt="Twitter rallies." class="center">
 {: refdef}
 
-What I am interested is when do these activist flood the streets? When will their digital words turn into analog/physical/real-life actions?
+For these particular project, what I am interested is when do these activist flood the streets? When will their digital words turn into real-life actions?
 
 **Data Wrangling**
 
-To do that I need a lot of data. Luckily, the GDELT project provides one. GDELT stands for
-
+To do that I need a lot of data. Luckily, the GDELT project provides one.
 
 <blockquote>
-<small>Global Database of Events, Language, and Tone (GDELT), created by Kalev Leetaru of Yahoo! and Georgetown University, along with Philip Schrodt and others, describes itself as "an initiative to construct a catalog of human societal-scale behavior and beliefs across all countries of the world, connecting every person, organization, location, count, theme, news source, and event across the planet into a single massive network that captures what's happening around the world, what its context is and who's involved, and how the world is feeling about it, every single day." [1].</small>
+<small>Global Database of Events, Language, and Tone (GDELT), created by Kalev Leetaru of Yahoo! and Georgetown University, along with Philip Schrodt and others, describes itself as "an initiative to construct a catalog of human societal-scale behavior and beliefs across all countries of the world, connecting every person, organization, location, count, theme, news source, and event across the planet into a single massive network that captures what's happening around the world, what its context is and who's involved, and how the world is feeling about it, every single day." [2].</small>
 </blockquote>
 
 The GDELT Project is a realtime network diagram and database of global human society for open research. [2 gdelt org website]
@@ -203,10 +202,10 @@ References:
 [1] Gfycal. Donald Trump and Greta Thunberg. Retrieved from :
 [https://gfycat.com/fancycoarsekrill-donald-trump](https://gfycat.com/fancycoarsekrill-donald-trump)
 
-[1] Wikipedia. Global Database of Events, Language, and Tone. Retrieved from:
+[2] Wikipedia. Global Database of Events, Language, and Tone. Retrieved from:
 [https://en.wikipedia.org/wiki/Global_Database_of_Events,_Language,_and_Tone](https://en.wikipedia.org/wiki/Global_Database_of_Events,_Language,_and_Tone)
 
-[2] The GDLET Project. Retrieved from: [https://www.gdeltproject.org/](https://www.gdeltproject.org/)
+[3] The GDLET Project. Retrieved from: [https://www.gdeltproject.org/](https://www.gdeltproject.org/)
 
 
 
