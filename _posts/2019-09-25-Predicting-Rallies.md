@@ -150,19 +150,33 @@ I used 2000-2015 as my training set and 2016-2019 as my test set. I used Bayes l
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/predict.png" alt="Gilmore" class="center">
 {: refdef}
 
+For a baseline comparison of the model, since I reduced the problem into a supervised binary classification, I used Logistic regression and since it is also used in a lot of machine learning methods in the event prediction and forecasting literature. For each day, I summed over all event mentions with rootcode 14 and is it as an identifier of the event.
 
+**Results**
 
+The ROC curve of the models compared to a baseline is shown below:
 
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/resulta.png" alt="Gilmore" class="center">
+{: refdef}
 
-Recommendations: current research point out that social embededness, bla blah
+For the accuracy and precision,
 
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/accuracy.png" alt="Gilmore" class="center">
+{: refdef}
 
+As we can see, the modified Hidden Markov Model performed better than logistic regression. I used a time window of seven days. This mean that this particular model will be able to predict if a big rally within the next 7 days.
 
+The results can be useful depending which side you are on. I you are an activist like me who organize people to rally for certain cause and advocacy, you would know if there is enough online clamor before a rally occur.
 
+But if you a member of the reactionary state force, you will certainly is this prediction to suppress social movements in favor of those already in power.
 
+My bias is that I am an activist. I believe that activism is a way of life. And we are all activists in our own little ways. Sometimes we just need to be reminder why we do the things we do and ultimately for whom do we do it.
 
+Recommendations: Current research point out that social embeddedness, emotions, grievance and identity. This can be verified using NLP and feature importance from the news data set used above and can be done as an extension of this project.
 
-
+See you in the future!
 
 
 
