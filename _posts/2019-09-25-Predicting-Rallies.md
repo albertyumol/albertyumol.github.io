@@ -183,7 +183,7 @@ My bias is that I am an activist. I believe that activism is a way of life. And 
 
 Recommendations: Current research point out that social embeddedness, emotions, grievance and identity. This can be verified using NLP and feature importance from the news data set used above and can be done as an extension of this project.
 
-See you in the future!
+See you in the future in future rallies and protest actions.
 
 I will continue to join rallies and stick to my principles as I believe that only collective action can we truly achive social change. As for the corrupt politicians in the Philippines,
 
