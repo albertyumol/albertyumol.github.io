@@ -121,7 +121,7 @@ And finally to smoothen out the data, we use a seven day moving average given by
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/eq5.png" alt="Equation 3." class="center">
 {: refdef}
 
-where $$/theta$$ is the upper bound of the 95% confidence interval of the time series. It's a lot of math, I know but we aren't yet discussing the model yet which is more intense (and fun!).
+where $$/theta$$ is the upper bound of the 95% confidence interval of the time series. It's a lot of math, I know (same girl I can relate) but we aren't yet discussing the model yet which is more intense (and fun!).
 
 Upon normalization, here is the result:
 
