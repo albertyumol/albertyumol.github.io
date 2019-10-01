@@ -48,7 +48,7 @@ Nowadays, much of our time are spent online, thus emerges a new type of activist
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/twitter.jpg" alt="Twitter rallies." class="center">
 {: refdef}
 
-For this particular project, what I am interested is *when do these activists flood the streets? When will their digital words turn into real-life actions?*
+For this particular project, what I am interested is **when do these activists flood the streets? When will their digital words turn into real-life actions?**
 
 **Data Wrangling**
 
@@ -208,7 +208,7 @@ My bias is that I am an activist. I believe that activism is a way of life. And 
 For my case, I will continue to join rallies and stick to my principles as I believe that only through collective action can we truly achieve genuine social change. As for the corrupt politicians in the Philippines,
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/rally/greta2.gif" alt="Gilmore" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/greta2.gif" alt="Greta is angry." class="center">
 {: refdef}
 
 
