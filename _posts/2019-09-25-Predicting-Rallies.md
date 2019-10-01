@@ -31,13 +31,13 @@ If you are active on Facebook, chance is high that you might have encountered ne
 
 As for my case, I have accepted these consequences and stay firm with my principles and advocacies to make a difference. When I was a student activist in University, my advocacy is on accessibility to education and ultimately pushing for free education for all. I believe that education is a right and not a privilege. I joined various demonstrations and rallies to forward and lobby this. As a science major, I always culminate my math skills to calculate the feasibility figures of free education and put it creatively in our rally boards and chants. The street became my laboratory and the struggles of poor students became my thesis.
 
-Eventually, through the pressure of big rallies and actual lobbying in congress (yes), in 2017 the Law for Free Education is passed. Now, students from various walks of life can enjoy free education in all state colleges and universities.
+Eventually, through the pressure of decade long big rallies (see image below) and actual lobbying in congress (yes), in August 2017 The Universal Access to Quality Tertiary Education Act, or Republic Act 10931 was signed into law. Now, students from various walks of life can enjoy free education in all state colleges and universities in the country.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/test4.gif" alt="Education rallies." class="center">
 {: refdef}
 
-Education is only one part of the various struggles that Filipino citizens face from the lack of basic social services, state and government inaccountability, irresponsible mining, and the notorious extrajudicial killings a.k.a. tokhang.
+Education is only one part of the various struggles that Filipino citizens face on a daily basis spanning from the lack of basic social services, government inaccountability and state neglect, irresponsible mining, and the notorious extrajudicial killings a.k.a. tokhang.
 
 These struggles are not concentrated in a certain area but is scattered across the archipelago (see image below).
 
