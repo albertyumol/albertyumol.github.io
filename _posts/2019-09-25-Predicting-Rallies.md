@@ -26,7 +26,7 @@ I myself is an activist like Greta. I may not be as young as her but I am just a
 
 If you are active on Facebook, chance is high that you might have encountered news about atrocities against activists (mainstream media don't usually report it). Just recently, news broke about forest rangers and protectors in Palawan being killed by paramilitary men and illegal loggers. I think hard about this. **How can we tell the future generations to love and protect nature when people who do that suffer and are killed?**
 
-As for my case, I have accepted these consequences and stay firm with my principles and advocacies to make a difference. When I was a student activist in University, my advocacy is on accessibility to education and ultimately pushing for free education for all. I believe that education is a right and not a privilege. I joined various demonstrations and rallies to forward and lobby this. As a science major, I always culminate my math skills to calculate the feasibility figures of free education and put it creatively in our rally boards and chants. The streets became my laboratory and the struggles of poor students became my thesis.
+As for my case, I have accepted these consequences and stay firm with my principles and advocacies to make a difference. When I was a student activist in University, my advocacy is on accessibility to education and ultimately pushing for free education for all. I believe that education is a right and not a privilege. I joined various demonstrations and rallies to forward and lobby this. As a science major, I always integrate my math skills to calculate the feasibility figures of free education and put it creatively in our rally boards and chants. The streets became my laboratory and the struggles of poor students became my thesis.
 
 Eventually, through the pressure of decade long big rallies (see image below) and actual lobbying in congress (yes), in August 2017 The Universal Access to Quality Tertiary Education Act, or Republic Act 10931 was signed into law. Now, students from various walks of life can enjoy free education in all state colleges and universities in the country.
 
@@ -40,9 +40,9 @@ Education is only one part of the various struggles that Filipino citizens face 
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/social_movement2.gif" alt="Philippine rallies." class="center">
 {: refdef}
 
-In my years as a student activist, I learned that to build democracy, we need to put it in our collective hands. There are lessons in history that we should never forget like how we did it in People Power 1 and People Power 2 against the dictator Marcos and jueteng-lord Estrada. We can also learn lessons from recent collective actions of our neighbors in HongKong against extradition and in student rallies in Indonesia against proposed new laws on criminalization if extramarital sex and in insulting their president's honor.
+In my years as a student activist, I learned that to build democracy, we need to put it in our collective hands. There are lessons in history that we should never forget like how we did it in People Power 1 and People Power 2 against the dictator Marcos and jueteng-lord Estrada. We can also learn lessons from recent collective actions of our neighbors in Hong Kong against extradition and in student rallies in Indonesia against proposed new laws on criminalization if extramarital sex and in insulting their president's honor.
 
-Nowadays, much of our time are spent online, thus emerges new types of activists. They are often called as keyboard activists. They are the ones who initiate twitter rallies and share 'woke memes'. Maybe you yourself have shared or retweeted their content.
+Nowadays, much of our time are spent online, thus emerges a new type of activists. They are often called as keyboard activists. They are the ones who initiate twitter rallies and share 'woke memes'. Maybe you yourself have shared or retweeted their content.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/twitter.jpg" alt="Twitter rallies." class="center">
@@ -68,9 +68,9 @@ These are the steps that I followed:
 
 <blockquote>
 <small>
-1. Ground Set Extraction \n
-2. Burstiness Modelling \n
-3. Hidden Markov Modelling \n
+1. Ground Set Extraction <br>
+2. Burstiness Modelling <br>
+3. Hidden Markov Modelling <br>
 4. Naive Bayes Decision
 </small>
 </blockquote>
@@ -101,7 +101,7 @@ Note:
 
 **Ground Set Extraction**
 
-The events in GDELt are categorized by identified themes labeled 1 to 20. The theme includes verbs describing the type of action of an event like reject (12), protest (14), threaten (13), coerce (17), assault (18), etc.
+The events in GDELT are categorized by identified themes labeled 1 to 20. The theme includes verbs describing the type of action of an event like reject (12), protest (14), threaten (13), coerce (17), assault (18), etc.
 
 To get the ground truth, event root code number 14 signifies events with mentions of PROTEST. I filtered out only those who have significant number of mentions across the years. I started with 2000 and aggregated on a daily basis. Plotting the time series,
 
