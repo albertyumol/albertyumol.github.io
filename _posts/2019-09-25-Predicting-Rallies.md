@@ -196,8 +196,7 @@ The results can be useful depending on your biases. If you are an activist like 
 
 If you are a member of the reactionary state force, you will most likely use this prediction to suppress social movements in favor of the status quo.
 
-If you are a normal citizen,
-
+If you are a normal citizen, you decide whether the issues being talked about speak relevance and weigh in future consequences.
 
 **Recommendations**
 
@@ -205,26 +204,24 @@ Current research point out that social embeddedness, emotions, grievance and ide
 
 **Takeaways**
 
-My bias is that I am an activist. I believe that activism is a way of life. And we are all activists in our own little ways. Sometimes we just need to be reminder why we do the things we do and ultimately *for whom* do we do it.
+My bias is that I am an activist. I believe that activism is a way of life. And everyone of us are all activists in our own little ways. Sometimes we just need to be reminded why we do the things we do and ultimately ask *for whom* do we do these things.
 
-See you in the future and hopefully in future rallies and protest actions.
-
-I will continue to join rallies and stick to my principles as I believe that only with collective action can we truly achieve genuine social change. As for the corrupt politicians in the Philippines,
+For my case, I will continue to join rallies and stick to my principles as I believe that only through collective action can we truly achieve genuine social change. As for the corrupt politicians in the Philippines,
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/greta2.gif" alt="Gilmore" class="center">
 {: refdef}
 
-https://tenor.com/view/well-be-watching-you-greta-thunberg-gif-15167876
 
+See you in the future and hopefully in future rallies and protest actions.
 #BeLikeGreta
-
+#DataScienceForThePeople
 
 
 
 **Credits**
 
-I want to acknowledge [Esklwelabs](https://www.eskwelabs.com/) in pursuit of this project. Also shout out to Data Science Fellow Cohort II. You are the best study buddies! I know you guys will be actuators in your future endeavors. Sending lots of love and virtual hugs :)
+I want to acknowledge [Esklwelabs](https://www.eskwelabs.com/) in pursuit of this project. Also shout out to Data Science Fellow Cohort II. You are the best data science study buddies! I know you guys will be actuators in your future endeavors. Sending lots of love and virtual hugs :)
 
 **References**
 
@@ -243,7 +240,7 @@ I want to acknowledge [Esklwelabs](https://www.eskwelabs.com/) in pursuit of thi
 [6] EPJ Data Science. Activism via attention: interpretable spatiotemporal learning to forecast protest activities. Retrieved from: [https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-019-0183-y](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-019-0183-y)
 
 [7] Gfycal. Donald Trump and Greta Thunberg 2. Retrieved from :
-[https://giphy.com/gifs/climate-crisis-greta-thunberg-un-action-summit-Qa4abAMDoyUtuICjLZ](https://giphy.com/gifs/climate-crisis-greta-thunberg-un-action-summit-Qa4abAMDoyUtuICjLZ)
+[https://tenor.com/view/well-be-watching-you-greta-thunberg-gif-15167876](https://tenor.com/view/well-be-watching-you-greta-thunberg-gif-15167876)
 
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
