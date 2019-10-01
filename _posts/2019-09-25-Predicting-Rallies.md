@@ -15,7 +15,10 @@ mathjax: true
 
 **Introduction**
 
-Have you heard about Greta Thunberg, the young Swedish activist visibly fighting for climate justice across global summits and platforms? Most of us are attracted to her sense of purpose and advocacy.
+Have you heard about Greta Thunberg? *She seems like a very happy young girl looking forward to a bright and wonderful future.* Yeah right. She is all over the news.
+
+
+the young Swedish activist visibly fighting for climate justice across global summits and platforms? Most of us are attracted to her sense of purpose and advocacy.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/greta1.gif" alt="Gilmore" class="center">
