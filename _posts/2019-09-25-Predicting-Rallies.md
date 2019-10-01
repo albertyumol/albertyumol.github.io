@@ -17,7 +17,14 @@ mathjax: true
 
 Have you heard about Greta Thunberg, the young Swedish activist visibly fighting for climate justice across global summits and platforms? Most of us are attracted to her sense of purpose and advocacy.
 
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/greta1.gif" alt="Gilmore" class="center">
+{: refdef}
+
+
 **insert gif of greta with source of course**
+https://gfycat.com/fancycoarsekrill-donald-trump
+
 
 Have you yourself encountered an activist?
 
@@ -178,6 +185,13 @@ Recommendations: Current research point out that social embeddedness, emotions, 
 
 See you in the future!
 
+I will continue to join rallies and stick to my principles as I believe that only collective action can we truly achive social change. As for the corrupt politicians in the Philippines,
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/greta2.gif" alt="Gilmore" class="center">
+{: refdef}
+
+https://tenor.com/view/well-be-watching-you-greta-thunberg-gif-15167876
 
 
 References:
