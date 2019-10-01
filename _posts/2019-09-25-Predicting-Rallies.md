@@ -106,20 +106,13 @@ Note:
 
 The events in GDELt are categorized by identified themes labeled 1-20. The theme includes verbs describing the type of action of an event like reject, protest, threaten, coerce, assault, etc.
 
-To get the ground truth, event root code number 14 signifies events with mentions of PROTEST.
-
-
-
-
-For the ground set extraction, I filtered out only those who have significant number of mentions across the years. I started with 2000 and aggregated on a daily basis. Plotting the time series,
-
+To get the ground truth, event root code number 14 signifies events with mentions of PROTEST. I filtered out only those who have significant number of mentions across the years. I started with 2000 and aggregated on a daily basis. Plotting the time series,
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/unnormalized.png" alt="Dirty timeseries." class="center">
 {: refdef}
 
-we see that there is a heterogeneous upward trend in the event mention . To remove this, I have implemented a 90 day moving average to normalize the signal using this equation:
-
+we see that there is a heterogeneous upward trend in the event mentions [5]. To remove this, I have implemented a 90 day moving average to normalize the signal using this equation:
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/eq3.png" alt="Equation 1." class="center">
@@ -131,14 +124,13 @@ To set the baseline value of number of significant event values, we define that 
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/eq4.png" alt="Equation 2." class="center">
 {: refdef}
 
-And finally to smoothen out the data, we use a seven day moving average given by:
-
+and to smoothen out the data, we use a seven day moving average:
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/eq5.png" alt="Equation 3." class="center">
 {: refdef}
 
-where $$/theta$$ is the upper bound of the 95% confidence interval of the time series. It's a lot of math, I know (same girl I can relate) but we aren't yet discussing the model yet which is more intense (and fun!).
+where $$\theta$$ is the upper bound of the 95% confidence interval of the time series. It's a lot of math, I know (same girl I can relate) but we aren't yet discussing the model yet which is more intense (and fun!).
 
 Upon normalization, here is the result:
 
@@ -201,7 +193,7 @@ But if you a member of the reactionary state force, you will certainly is this p
 
 My bias is that I am an activist. I believe that activism is a way of life. And we are all activists in our own little ways. Sometimes we just need to be reminder why we do the things we do and ultimately for whom do we do it.
 
-Recommendations: Current research point out that social embeddedness, emotions, grievance and identity. This can be verified using NLP and feature importance from the news data set used above and can be done as an extension of this project.
+Recommendations: Current research point out that social embeddedness, emotions, grievance and identity [6]. This can be verified using NLP and feature importance from the news data set used above and can be done as an extension of this project.
 
 See you in the future in future rallies and protest actions.
 
@@ -233,7 +225,7 @@ References:
 
 [5] Discrete Dynamics in Nature and Society. Predicting Social Unrest Events with Hidden Markov Models Using GDELT. Retrieved from: [https://www.hindawi.com/journals/ddns/2017/8180272/](https://www.hindawi.com/journals/ddns/2017/8180272/)
 
-
+[6] EPJ Data Science. Activism via attention: interpretable spatiotemporal learning to forecast protest activities. Retrieved from: [https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-019-0183-y](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-019-0183-y)
 
 
 
