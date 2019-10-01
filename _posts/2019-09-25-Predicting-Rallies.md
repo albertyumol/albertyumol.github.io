@@ -21,13 +21,13 @@ Have you heard about Greta Thunberg? That *'...very happy young girl looking for
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/greta1.gif" alt="Be like Greta." class="center">
 {: refdef}
 
-There seems to be a lot of online clamor showing support for her activism. We are always drawn to hero figures like her. But heroism sometimes can be ordanary.
+There seems to be a lot of online clamor showing support for her activism. We are always drawn to hero figures like her. But heroism sometimes can be ordinary as well.
 
-Let me ask you if you yourself have met an activist like her? It seems unlikely when you are in the Philippines.
+Let me ask you if you yourself have met an activist like her? It seems unlikely when you live in the Philippines.
 
-I myself is an activist like Greta. I may not be as young as her but I am just as pretty :). To be honest, I think being an activist in the Philippines is much harder and dangerous. If you declare yourself as an activist and go out into the open, often than not you will be tagged as a member of the New Peoples Army, a communist, or even a radical terrorist. Being an activist in the Philippines means acceptance of the perils and circumstances that comes with it.
+I myself is an activist like Greta. I may not be as young as her but I am just as pretty :). To be honest, I think being an activist in the Philippines (regardless of advocacy e.g. environment, basic social services, human rights, etc.) is much harder and dangerous. If you declare yourself as an activist and go out into the open, often than not you will be tagged as a member of the New Peoples Army, a communist, or even a radical terrorist. Being an activist in the Philippines also means acceptance of the perils and circumstances that comes with it.
 
-If you are active on Facebook, chance is high that you might have encountered news of forest rangers and protectors in Palawan being killed by paramilitary men and illegal loggers. How can we tell the future generations to love and protect nature when people who do that suffer and are killed?
+If you are active on Facebook, chance is high that you might have encountered news about atrocities against activists (mainstream media don't usually report it). Just recently, news about forest rangers and protectors in Palawan being killed by paramilitary men and illegal loggers. How can we tell the future generations to love and protect nature when people who do that suffer and are killed?
 
 As for my case, I have accepted this reality and stay firm with my principles and advocacies to make impact. When I was a student activist in University, my advocacy is on accessibility to education and ultimately push for free education for all. I believe that education is a right and not a privilege. I joined various demonstrations and rallies to forward and lobby .As a science major, we've used math to calculate the feasibility of free education given the current budgeting system in the Philippines. The street became my laboratory.
 
