@@ -15,7 +15,7 @@ mathjax: true
 
 **Introduction**
 
-Have you heard about Greta Thunberg? That *'...very happy young girl looking forward to a bright and wonderful future'.* She is all over the news recently and in my twitter feed. Most of those in my digital circle post a lot of her *gifs* as she voice out her advocacies on the main stage of international climate summits. A lot seems to be attracted by her sense of purpose and 'wokeness' at a young age.
+Have you heard about Greta Thunberg? That *'...very happy young girl looking forward to a bright and wonderful future'.* She is all over the news and my twtter feed recently. Most of those in my digital circle post a lot of her *gifs* as she voice out her advocacies on the main stage of international climate summits. A lot seems to be attracted by her sense of purpose and 'woke-ness' at a young age.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/greta1.gif" alt="Be like Greta." class="center">
@@ -97,7 +97,7 @@ SQLDATE, MonthYear, EventRootCode, GoldsteinScale, NumMentions, AvgTone, ActionG
 Note:
 <blockquote>
 <small>
-*GoldsteinScale* is a numerical score ranging from -10 to 10 which signifies the theoretical potential impact that type of event will have on the stability of the country. *NumMentions* is the total number of mentions of this event across all source documents, which can be used as a method of assessing the importance of an event: the more the discussion of the event is, the more likely it is to be significant. *AvgTone* is the average tone of all documents containing one or more mentions of this event ranging from -100 (extremely negative) to 100 (extremely positive) [5]. *Action_Geo_Country* code is the location of the event, *ActionGeo_Lat* and *ActionGeo_Long* are the centroid lat long of the landmark which I used to plot the Philippine Map gif above.
+**GoldsteinScale** is a numerical score ranging from -10 to 10 which signifies the theoretical potential impact that type of event will have on the stability of the country. **NumMentions** is the total number of mentions of this event across all source documents, which can be used as a method of assessing the importance of an event: the more the discussion of the event is, the more likely it is to be significant. **AvgTone** is the average tone of all documents containing one or more mentions of this event ranging from -100 (extremely negative) to 100 (extremely positive) [5]. **Action_Geo_Country** code is the location of the event, **ActionGeo_Lat** and **ActionGeo_Long** are the centroid lat long of the landmark which I used to plot the Philippine Map gif above.
 </small>
 </blockquote>
 
@@ -140,7 +140,7 @@ Upon normalization, here is the result:
 
 All of the points above the red line are days with significant rallies.
 
-I used this points as labels and reduce my problem as a supervised binary classification. Those days with significant count of rally mentions are labeled as 1 while those with none are tagged as 0.
+I used this points as labels and reduce my problem to a supervised binary classification. Those days with significant count of rally mentions are labeled as 1 while those with none are tagged as 0.
 
 I will discuss the details of the coupled Burstiness and Hidden Markov Model (HMM) that I implemented in another blog post. I chose HMM because it accounts for time series variation as sequence learning and coupled it with Burstiness Modelling to properly account for the probabilities and duration of events (also called as states).
 
@@ -235,7 +235,7 @@ I want to acknowledge [Esklwelabs](https://www.eskwelabs.com/) in pursuit of thi
 
 [6] EPJ Data Science. Activism via attention: interpretable spatiotemporal learning to forecast protest activities. Retrieved from: [https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-019-0183-y](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-019-0183-y)
 
-[1] Gfycal. Donald Trump and Greta Thunberg 2. Retrieved from :
+[7] Gfycal. Donald Trump and Greta Thunberg 2. Retrieved from :
 [https://giphy.com/gifs/climate-crisis-greta-thunberg-un-action-summit-Qa4abAMDoyUtuICjLZ](https://giphy.com/gifs/climate-crisis-greta-thunberg-un-action-summit-Qa4abAMDoyUtuICjLZ)
 
 
