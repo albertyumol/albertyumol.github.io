@@ -86,15 +86,30 @@ Conflict and Mediation Event Observations (CAMEO) is a framework for coding even
 </small>
 </blockquote>
 
-I only got these fields:
+For my daily aggregation, I only got these fields:
 
+<blockquote>
+<small>
 SQLDATE, MonthYear, EventRootCode, GoldsteinScale, NumMentions, AvgTone, ActionGeo_CountryCode, ActionGeo_Lat, ActionGeo_Long
+</small>
+</blockquote>
 
-which I used to plot the Philippine Map gif above.
+Note:
+<blockquote>
+<small>
+*GoldsteinScale* is a numerical score ranging from -10 to 10 which signifies the theoretical potential impact that type of event will have on the stability of the country. *NumMentions* is the total number of mentions of this event across all source documents, which can be used as a method of assessing the importance of an event: the more the discussion of the event is, the more likely it is to be significant. *AvgTone* is the average tone of all documents containing one or more mentions of this event ranging from -100 (extremely negative) to 100 (extremely positive) [5]. *Action_Geo_Country* code is the location of the event, *ActionGeo_Lat* and *ActionGeo_Long* are the centroid lat long of the landmark which I used to plot the Philippine Map gif above.
+</small>
+</blockquote>
 
-To get the ground truth, event code number 14 signifies events with mentions of PROTEST. GoldsteinScale is a numerical score ranging from -10 to 10 which signifies the theoretical potential impact that type of event will have on the stability of the country. NumMentions is the total number of mentions of this event across all source documents, which can be used as a method of assessing the importance of an event: the more the discussion of the event is, the more likely it is to be significant.
 
-AvgTone is the average tone of all documents containing one or more mentions of this event ranging from -100 (extremely negative) to 100 (extremely positive). Action_Geo_Country code is the location of the event, ActionGeo_Lat and ActionGeo_Long are the centroid lat long of the landmark for mapping.
+**Ground Set Extraction**
+
+The events in GDELt are categorized by identified themes labeled 1-20. The theme includes verbs describing the type of action of an event like reject, protest, threaten, coerce, assault, etc.
+
+To get the ground truth, event root code number 14 signifies events with mentions of PROTEST.
+
+
+
 
 For the ground set extraction, I filtered out only those who have significant number of mentions across the years. I started with 2000 and aggregated on a daily basis. Plotting the time series,
 
@@ -215,6 +230,11 @@ References:
 [3] The GDLET Project. Retrieved from: [https://www.gdeltproject.org/](https://www.gdeltproject.org/)
 
 [4] Wikipedia. Conflict and Mediation Event Observations. Retrieved from: [https://en.wikipedia.org/wiki/Conflict_and_Mediation_Event_Observations](https://en.wikipedia.org/wiki/Conflict_and_Mediation_Event_Observations)
+
+[5] Discrete Dynamics in Nature and Society. Predicting Social Unrest Events with Hidden Markov Models Using GDELT. Retrieved from: [https://www.hindawi.com/journals/ddns/2017/8180272/](https://www.hindawi.com/journals/ddns/2017/8180272/)
+
+
+
 
 
 
