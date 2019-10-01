@@ -37,17 +37,19 @@ Eventually, through the pressure of decade long big rallies (see image below) an
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/test4.gif" alt="Education rallies." class="center">
 {: refdef}
 
-Education is only one part of the various struggles that Filipino citizens face on a daily basis spanning from the lack of basic social services, government inaccountability and state neglect, irresponsible mining, and the notorious extrajudicial killings a.k.a. tokhang.
-
-These struggles are not concentrated in a certain area but is scattered across the archipelago (see image below).
+Education is only one part of the various struggles that Filipino citizens face on a daily basis spanning from the lack of basic social services, government unaccountability and state neglect, irresponsible mining, and the notorious extrajudicial killings in the face of *tokhang*. These struggles happen across the archipelago and experienced by various sectors of our society.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/social_movement2.gif" alt="Philippine rallies." class="center">
 {: refdef}
 
-In my years as an activist, I learned that to build democracy, we need to put it in our collective hands. There are lessons in history that we should never forget like how we did it in People Power 1 and 2 against Marcos and Estrada. We can also learn lessons from recent collective actions of our neighbors in HongKong against extradition and in student rallies in Indonesia against proposed new laws on criminalization if extramarital sex and in insulting the president's honor.
+In my years as a student activist, I learned that to build democracy, we need to put it in our collective hands. There are lessons in history that we should never forget like how we did it in People Power 1 / 2 against Marcos and Estrada. We can also learn lessons from recent collective actions of our neighbors in HongKong against extradition and in student rallies in Indonesia against proposed new laws on criminalization if extramarital sex and in insulting their president's honor.
 
-In our present day, there are different forms of activism. Of particular interest for me are the so-called keyboard activists. They are the ones who initiate twitter rallies and sharing 'woke memes'.
+Much of our time are spent online, thus emerges a new form of activism. They are often called as keyboard activists. They are the ones who initiate twitter rallies and sharing 'woke memes'. May be you yourself have shared or retweeted their content.
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/twitter.jpg" alt="Twitter rallies." class="center">
+{: refdef}
 
 What I am interested is when do these activist flood the streets? When will their digital words turn into analog/physical/real-life actions?
 
