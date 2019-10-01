@@ -15,29 +15,21 @@ mathjax: true
 
 **Introduction**
 
-Have you heard about Greta Thunberg? *She seems like a very happy young girl looking forward to a bright and wonderful future.* Yeah right. She is all over the news.
-
-
-the young Swedish activist visibly fighting for climate justice across global summits and platforms? Most of us are attracted to her sense of purpose and advocacy.
+Have you heard about Greta Thunberg? That *'...very happy young girl looking forward to a bright and wonderful future'.* She is all over the news recently and in my twitter feed. Most of those in my digital circle post a lot of her *gifs* as she voice out her advocacies on the main stage of international climate summits. A lot seems to be attracted by her sense of purpose and 'wokeness' at a young age.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/greta1.gif" alt="Be like Greta." class="center">
 {: refdef}
 
+There seems to be a lot of online clamor showing support for her activism. We are always drawn to hero figures like her. But heroism sometimes can be ordanary.
 
-**insert gif of greta with source of course**
-https://gfycat.com/fancycoarsekrill-donald-trump
+Let me ask you if you yourself have met an activist like her? It seems unlikely when you are in the Philippines.
 
+I myself is an activist like Greta. I may not be as young as her but I am just as pretty :). To be honest, I think being an activist in the Philippines is much harder and dangerous. If you declare yourself as an activist and go out into the open, often than not you will be tagged as a member of the New Peoples Army, a communist, or even a radical terrorist. Being an activist in the Philippines means acceptance of the perils and circumstances that comes with it.
 
-Have you yourself encountered an activist?
+If you are active on Facebook, chance is high that you might have encountered news of forest rangers and protectors in Palawan being killed by paramilitary men and illegal loggers. How can we tell the future generations to love and protect nature when people who do that suffer and are killed?
 
-I am an activist as well. To be honest, I think being an activist in the Philippines is much harder. When you go out into the open, you will be tagged as an NPA, a communist or even a terrorist.
-
-I am used to being red tagged. But I need to stay firm with my principles and advocacies to make impact.
-
-In particular, when I was a student activist, my advocacy is on accessibility to education and ultimately push for free education for all. I believe that education is a right and not a privilege.
-
-In my days in the University, I joined various demonstrations and rallies. As a science major, we've used math to calculate the feasibility of free education given the current budgeting system in the Philippines.
+As for my case, I have accepted this reality and stay firm with my principles and advocacies to make impact. When I was a student activist in University, my advocacy is on accessibility to education and ultimately push for free education for all. I believe that education is a right and not a privilege. I joined various demonstrations and rallies to forward and lobby .As a science major, we've used math to calculate the feasibility of free education given the current budgeting system in the Philippines. The street became my laboratory.
 
 Eventually, through the pressure of rallies and lobbying in congress, in 2017 the Law for Free Education is passed. Now, students from various walks of life can enjoy free education in all state colleges and universities.
 
@@ -58,6 +50,8 @@ In my years as an activist, I learned that to build democracy, we need to put it
 In our present day, there are different forms of activism. Of particular interest for me are the so-called keyboard activists. They are the ones who initiate twitter rallies and sharing 'woke memes'.
 
 What I am interested is when do these activist flood the streets? When will their digital words turn into analog/physical/real-life actions?
+
+**Data Wrangling**
 
 To do that I need a lot of data. Luckily, the GDELT project provides one. GDELT stands for
 
@@ -202,6 +196,9 @@ Credits:
 I want to acknowledge [Esklwelabs](https://www.eskwelabs.com/) in pursuit of this project. Also shout out to Data Science Fellow Cohort II. You are the best study buddies! I know you guys will be actuators in your future endeavors. Lots of love :)
 
 References:
+
+[1] Gfycal. Donald Trump and Greta Thunberg. Retrieved from :
+[https://gfycat.com/fancycoarsekrill-donald-trump](https://gfycat.com/fancycoarsekrill-donald-trump)
 
 [1] Wikipedia. Global Database of Events, Language, and Tone. Retrieved from:
 [https://en.wikipedia.org/wiki/Global_Database_of_Events,_Language,_and_Tone](https://en.wikipedia.org/wiki/Global_Database_of_Events,_Language,_and_Tone)
