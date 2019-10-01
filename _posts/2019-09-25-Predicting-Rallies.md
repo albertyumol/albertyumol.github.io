@@ -21,7 +21,7 @@ Have you heard about Greta Thunberg? *She seems like a very happy young girl loo
 the young Swedish activist visibly fighting for climate justice across global summits and platforms? Most of us are attracted to her sense of purpose and advocacy.
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/rally/greta1.gif" alt="Gilmore" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/greta1.gif" alt="Be like Greta." class="center">
 {: refdef}
 
 
@@ -42,7 +42,7 @@ In my days in the University, I joined various demonstrations and rallies. As a 
 Eventually, through the pressure of rallies and lobbying in congress, in 2017 the Law for Free Education is passed. Now, students from various walks of life can enjoy free education in all state colleges and universities.
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/rally/test4.gif" alt="Gilmore" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/test4.gif" alt="Education rallies." class="center">
 {: refdef}
 
 Education is only one part of the various struggles that Filipino citizens face from the lack of basic social services, state and government inaccountability, irresponsible mining, and the notorious extrajudicial killings a.k.a. tokhang.
@@ -50,7 +50,7 @@ Education is only one part of the various struggles that Filipino citizens face 
 These struggles are not concentrated in a certain area but is scattered across the archipelago (see image below).
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/rally/social_movement2.gif" alt="Gilmore" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/social_movement2.gif" alt="Philippine rallies." class="center">
 {: refdef}
 
 In my years as an activist, I learned that to build democracy, we need to put it in our collective hands. There are lessons in history that we should never forget like how we did it in People Power 1 and 2 against Marcos and Estrada. We can also learn lessons from recent collective actions of our neighbors in HongKong against extradition and in student rallies in Indonesia against proposed new laws on criminalization if extramarital sex and in insulting the president's honor.
@@ -98,27 +98,27 @@ For the ground set extraction, I filtered out only those who have significant nu
 
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/rally/unnormalized.png" alt="Gilmore" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/unnormalized.png" alt="Dirty timeseries." class="center">
 {: refdef}
 
 we see that there is a heterogeneous upward trend in the event mention . To remove this, I have implemented a 90 day moving average to normalize the signal using this equation:
 
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/rally/eq3.png" alt="Gilmore" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/eq3.png" alt="Equation 1." class="center">
 {: refdef}
 
 To set the baseline value of number of significant event values, we define that the average mention count on each day is given by
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/rally/eq4.png" alt="Gilmore" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/eq4.png" alt="Equation 2." class="center">
 {: refdef}
 
 And finally to smoothen out the data, we use a seven day moving average given by:
 
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/rally/eq5.png" alt="Gilmore" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/eq5.png" alt="Equation 3." class="center">
 {: refdef}
 
 where $$/theta$$ is the upper bound of the 95% confidence interval of the time series. It's a lot of math, I know but we aren't yet discussing the model yet which is more intense (and fun!).
@@ -126,7 +126,7 @@ where $$/theta$$ is the upper bound of the 95% confidence interval of the time s
 Upon normalization, here is the result:
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/rally/normalized.png" alt="Gilmore" class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/normalized.png" alt="Equation 4." class="center">
 {: refdef}
 
 All of the points above the red line are days with significant rallies.
