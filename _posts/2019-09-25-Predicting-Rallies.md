@@ -27,11 +27,11 @@ Let me ask you if you yourself have met an activist like her? It seems unlikely 
 
 I myself is an activist like Greta. I may not be as young as her but I am just as pretty :). To be honest, I think being an activist in the Philippines (regardless of advocacy e.g. environment, basic social services, human rights, etc.) is much harder and dangerous. If you declare yourself as an activist and go out into the open, often than not you will be tagged as a member of the New Peoples Army, a communist, or even a radical terrorist. Being an activist in the Philippines also means acceptance of the perils and circumstances that comes with it.
 
-If you are active on Facebook, chance is high that you might have encountered news about atrocities against activists (mainstream media don't usually report it). Just recently, news about forest rangers and protectors in Palawan being killed by paramilitary men and illegal loggers. How can we tell the future generations to love and protect nature when people who do that suffer and are killed?
+If you are active on Facebook, chance is high that you might have encountered news about atrocities against activists (mainstream media don't usually report it). Just recently, news broke about forest rangers and protectors in Palawan being killed by paramilitary men and illegal loggers. I think hard about this. How can we tell the future generations to love and protect nature when people who do that suffer and are killed?
 
-As for my case, I have accepted this reality and stay firm with my principles and advocacies to make impact. When I was a student activist in University, my advocacy is on accessibility to education and ultimately push for free education for all. I believe that education is a right and not a privilege. I joined various demonstrations and rallies to forward and lobby .As a science major, we've used math to calculate the feasibility of free education given the current budgeting system in the Philippines. The street became my laboratory.
+As for my case, I have accepted these consequences and stay firm with my principles and advocacies to make a difference. When I was a student activist in University, my advocacy is on accessibility to education and ultimately pushing for free education for all. I believe that education is a right and not a privilege. I joined various demonstrations and rallies to forward and lobby this. As a science major, I always culminate my math skills to calculate the feasibility figures of free education and put it creatively in our rally boards and chants. The street became my laboratory and the struggles of poor students became my thesis.
 
-Eventually, through the pressure of rallies and lobbying in congress, in 2017 the Law for Free Education is passed. Now, students from various walks of life can enjoy free education in all state colleges and universities.
+Eventually, through the pressure of big rallies and actual lobbying in congress (yes), in 2017 the Law for Free Education is passed. Now, students from various walks of life can enjoy free education in all state colleges and universities.
 
 {:refdef: style="text-align: center;"}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rally/test4.gif" alt="Education rallies." class="center">
@@ -190,6 +190,7 @@ I will continue to join rallies and stick to my principles as I believe that onl
 
 https://tenor.com/view/well-be-watching-you-greta-thunberg-gif-15167876
 
+#BeLikeGreta
 
 Credits:
 
