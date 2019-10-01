@@ -61,23 +61,30 @@ To do that I need a lot of data. Luckily, the GDELT project provides one.
 <small>Global Database of Events, Language, and Tone (GDELT), created by Kalev Leetaru of Yahoo! and Georgetown University, along with Philip Schrodt and others, describes itself as "an initiative to construct a catalog of human societal-scale behavior and beliefs across all countries of the world, connecting every person, organization, location, count, theme, news source, and event across the planet into a single massive network that captures what's happening around the world, what its context is and who's involved, and how the world is feeling about it, every single day." [2].</small>
 </blockquote>
 
-The GDELT Project is a realtime network diagram and database of global human society for open research. [2 gdelt org website]
-
-GDELT monitors print, broadcast, and web news media in over 100 languages from across every country in the world to keep continually updated on breaking developments anywhere on the planet. Its historical archives stretch back to January 1, 1979 and update every 15 minutes. Through its ability to leverage the world's collective news media, GDELT moves beyond the focus of the Western media towards a far more global perspective on what's happening and how the world is feeling about it.
+The GDELT Project is a real time network diagram and database of global human society for open research [2]. It monitors print, broadcast, and web news media in over 100 languages from across every country in the world to keep continually updated on breaking developments anywhere on the planet. Its historical archives stretch back to January 1, 1979 and update every 15 minutes. Through its ability to leverage the world's collective news media, GDELT moves beyond the focus of the Western media towards a far more global perspective on what's happening and how the world is feeling about it.
 
 I used Google's Big Query to get the event logs of all news in the Philippines since year 2000 (here is the script I used):
 
 <script src="https://gist.github.com/albertyumol/3715a1cb2c5efb96269b05ac4dce0d02.js"></script>
 
 The steps that I will follow is this:
+
+<blockquote>
+<small>
 1. Ground Set Extraction
 2. Burstiness Modelling
 3. Hidden Markov Modelling
 4. Naive Bayes Decision
+</small>
+</blockquote>
 
-For the ground set I used GDLET. Each record has 61 fields, pertaining to a specific event in CAMEO format (What is CAMEO?).
+Each record in GDELT has 61 fields, pertaining to a specific event in CAMEO format.
 
-Conflict and Mediation Event Observations (CAMEO) is a framework for coding event data (typically used for events that merit news coverage, and generally applied to the study of political news and violence).[1][2] It is a more recent alternative to the WEIS coding system developed by Charles A. McClelland and the Conflict and Peace Data Bank (COPDAB) coding system developed by Edward Azar.
+<blockquote>
+<small>
+Conflict and Mediation Event Observations (CAMEO) is a framework for coding event data (typically used for events that merit news coverage, and generally applied to the study of political news and violence). [3]
+</small>
+</blockquote>
 
 I only got these fields:
 
