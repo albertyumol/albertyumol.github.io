@@ -222,6 +222,8 @@ See you in the future and hopefully in future rallies and protest actions.
 
 I want to acknowledge [Esklwelabs](https://www.eskwelabs.com/) in pursuit of this project. Also shout out to Data Science Fellow Cohort II. You are the best data science study buddies! I know you guys will be actuators in your future endeavors. Sending lots of love and virtual hugs :)
 
+Want to collaborate? Message me in [LinkedIn](https://ph.linkedin.com/in/albertyumol).
+
 **References**
 
 [1] Gfycal. Donald Trump and Greta Thunberg 1. Retrieved from :

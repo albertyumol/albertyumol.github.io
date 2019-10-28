@@ -102,6 +102,8 @@ But so far, I am a very happy kid with this find. I have sought help from my gee
 
 What do you think? Leave a comment below, and don't forget to say 'hi'.
 
+Want to collaborate? Message me in [LinkedIn](https://ph.linkedin.com/in/albertyumol).
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({

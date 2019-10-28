@@ -52,6 +52,8 @@ services for our commuters.
 **#YesToGenuineModernization** <br>
 **#NoToJeepneyPhaseout**
 
+Want to collaborate? Message me in [LinkedIn](https://ph.linkedin.com/in/albertyumol).
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({

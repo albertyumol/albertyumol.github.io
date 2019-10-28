@@ -132,6 +132,8 @@ Here are other photos that I had fun to play with:
 
 But hey it's fun! Go on, try it yourself and comment down your best images.
 
+Want to collaborate? Message me in [LinkedIn](https://ph.linkedin.com/in/albertyumol).
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({

@@ -175,6 +175,7 @@ I then used the *free hand selection tool* to draw a polygon that fits around th
 I clicked the measurements and it gave an area of $$45.842 cm^2$$ which is $$0.12%$$ away from the actual value.
 It was accurate enough even though I was not even making tremendous effort on making the shape really fit the sides line to line.
 ​
+Want to collaborate? Message me in [LinkedIn](https://ph.linkedin.com/in/albertyumol).
 
 References:
 

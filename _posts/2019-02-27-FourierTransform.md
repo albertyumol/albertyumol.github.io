@@ -162,6 +162,8 @@ Convolution and correlation was also successfully for 2D signals and lastly, an 
 I have gained a lot more insights on how useful FFT really is.
 I am looking forward to more applications of FFT to my research on signal analysis and processing.
 
+Want to collaborate? Message me in [LinkedIn](https://ph.linkedin.com/in/albertyumol).
+
 **References:**
 
 [1] Wikipedia. Fourier Transform. Retrieved from: [https://en.wikipedia.org/wiki/Fourier_transform](https://en.wikipedia.org/wiki/Fourier_transform)
