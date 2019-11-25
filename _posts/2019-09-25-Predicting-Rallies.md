@@ -4,7 +4,7 @@ date: 2019-09-25
 tags: [Machine Learning, Data Science]
 header:
   image: "/images/rally/title.png"
-  teaser: "/images/rally/teaser.png"
+  teaser: "/images/rally/front.png"
 excerpt: "Social movements exhibit a complex system of social human behavior. These events demonstrate the capacity of people and their collective action to influence political decisions and public policies. This study delves into developing a model to predict future events of big rallies and protest in the Philippines by correlating it to online dissent and mentions in news outlets and social media using a coupled Burstiness and Hidden Markov Model."
 mathjax: true
 
