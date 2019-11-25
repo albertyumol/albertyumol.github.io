@@ -12,10 +12,14 @@ mathjax: true
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/greta1.gif" alt="Be like Greta." class="center">
+{: refdef}
+
 Have you heard about Greta Thunberg? That *'...very happy young girl looking forward to a bright and wonderful future'.* She is all over the news and my twitter feed recently. Most of those in my digital circle post a lot of her *gifs* as she voice out her advocacies on the main stage of international climate summits. A lot seems to be attracted by her sense of purpose and 'woke-ness' at a young age.
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/rally/greta1.gif" alt="Be like Greta." class="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/rally/front.png" alt="me." class="center">
 {: refdef}
 
 There seems to be a lot of online clamor showing support for her activism. We tend to be drawn to hero figures like her and the extra-ordinariness of her cause. But sometimes, actions need not to be very extra-ordinary to be heroic.
