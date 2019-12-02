@@ -4,17 +4,13 @@ date: 2019-09-25
 tags: [Machine Learning, Data Science]
 header:
   image: "/images/rally/title.png"
-  teaser: "/images/rally/front.png"
+  teaser: "/images/rally/teaser.png"
 excerpt: "Social movements exhibit a complex system of social human behavior. These events demonstrate the capacity of people and their collective action to influence political decisions and public policies. This study delves into developing a model to predict future events of big rallies and protest in the Philippines by correlating it to online dissent and mentions in news outlets and social media using a coupled Burstiness and Hidden Markov Model."
 mathjax: true
 
 ---
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
-
-{:refdef: style="text-align: center;"}
-<img src="{{ site.url }}{{ site.baseurl }}/images/rally/front.png" alt="me." class="center">
-{: refdef}
 
 Have you heard about Greta Thunberg? That *'...very happy young girl looking forward to a bright and wonderful future'.* She is all over the news and my twitter feed recently. Most of those in my digital circle post a lot of her *gifs* as she voice out her advocacies on the main stage of international climate summits. A lot seems to be attracted by her sense of purpose and 'woke-ness' at a young age.
 
