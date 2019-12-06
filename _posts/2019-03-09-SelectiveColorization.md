@@ -23,12 +23,6 @@ I was not born with artistically coordinated hands. I can't even draw passable s
 
 However, in my reality, I am self-proclaimed hipster. And being a hipster means I need to try to be as artsy as possible. From dressing as outrageous as I can to dying my hair neon. Art has been where I vent most of my self expression.
 
-
-Anyway, makwento talaga ako at ang haba na nito.
-
-
-I find art fun
-
 I always wanted to be good at something artistically because obviously art is fun. This is my one step of fulfilling my dream of becoming a future Van Gogh. And I'm not pertaining to our sanity.
 
 Most of the time, I pester my photoshop savvy friends for the most menial photo editing tasks i.e. removing my ever present freckles and blemishes. Don't get me wrong. I am not vain at all. It's just that cameras don't hit my face at the right angles. Only till now have I built courage to explore image manipulation and finally do it myself. Surprisingly, it was not at all hard. I would not write a blog if it is so. Trust me.
