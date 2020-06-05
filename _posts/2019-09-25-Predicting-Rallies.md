@@ -137,7 +137,7 @@ Upon normalization, here is the result:
 
 All of the points above the red line are days with significant rallies.
 
-I used this points as labels and reduce my problem to a supervised binary classification. Those days with significant count of rally mentions are labeled as 1 while those with none are tagged as 0.
+I used these points as labels and reduce my problem to a supervised binary classification. Those days with significant count of rally mentions are labeled as 1 while those with none are tagged as 0.
 
 I will discuss the details of the coupled Burstiness and Hidden Markov Model (HMM) that I implemented in another blog post. I chose HMM because it accounts for time series variation as sequence learning and coupled it with Burstiness Modelling to properly account for the probabilities and duration of events (also called as states).
 
