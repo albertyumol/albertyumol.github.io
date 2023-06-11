@@ -28,7 +28,7 @@ Same concepts, same math, minus the proportions.
 There are a lot ways in which an area can be estimated given an image.
 The most basic and most rigorous approach would be directly counting the pixels that lie within a boundary and by sorting out the pixels by the magnitude of its intensity.
 But that's only one way of doing it. A more 'mathematical' and 'elegant' approach is by using [Green's Theorem](https://en.wikipedia.org/wiki/Green%27s_theorem) (recall basic Calculus).
-This theorem basically relates a double integral to a line integral [1].
+This theorem basically relates a double integral to a line integral [1]. #test
 
 For some continuous function $$F_{1}$$ and $$F_{2}$$ (with continuous partial derivatives) that contains a region $$R$$, Green's Theorem relates that:
 
